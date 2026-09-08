@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    VIGILGUARD 24/7 REMOTE CCTV MONITORING - DESIGN SYSTEM
    ========================================================================== */
 
@@ -473,22 +473,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-subheadline {
-  font-size: 1.25rem;
-  color: #cbd5e1;
-  font-weight: 500;
+  font-size: 1.35rem;
+  color: #60a5fa;
+  font-weight: 600;
   margin-bottom: 1rem;
-  line-height: 1.5;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
 }
 
 .hero-statement {
-  font-size: 1.05rem;
-  color: var(--text-muted);
+  font-size: 1.1rem;
+  color: #cbd5e1;
   margin-bottom: 2rem;
   line-height: 1.7;
 }
 
 .hero-statement strong {
   color: var(--text-white);
+  font-weight: 600;
 }
 
 .hero-cta-group {
