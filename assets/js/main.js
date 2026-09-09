@@ -1,4 +1,4 @@
-﻿/**
+/**
  * VIGILGUARD 24/7 CCTV MONITORING - CORE JAVASCRIPT
  */
 
@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileNav();
   initCctvClocks();
   initModals();
+  initLiveChat();
   initPricingSwitcher();
   initCompatibilityChecker();
   initQuoteCalculator();
@@ -47,7 +48,7 @@ function initCctvClocks() {
     const mins = String(now.getMinutes()).padStart(2, '0');
     const secs = String(now.getSeconds()).padStart(2, '0');
 
-    const formatted = ${year}-- :: EST;
+    const formatted = `${year}-${month}-${day} ${hours}:${mins}:${secs} EST`;
     timestampEls.forEach(el => {
       el.textContent = formatted;
     });
@@ -61,11 +62,13 @@ function initCctvClocks() {
 function initModals() {
   const assessmentTriggers = document.querySelectorAll('.open-assessment-modal');
   const quoteTriggers = document.querySelectorAll('.open-quote-modal');
+  const chatTriggers = document.querySelectorAll('.open-chat-modal');
   const closeBtns = document.querySelectorAll('.modal-close-btn');
   const modalOverlays = document.querySelectorAll('.modal-overlay');
 
   const assessmentModal = document.getElementById('modal-assessment');
   const quoteModal = document.getElementById('modal-quote');
+  const chatModal = document.getElementById('modal-chat');
 
   function openModal(modal) {
     if (!modal) return;
@@ -90,6 +93,13 @@ function initModals() {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       openModal(quoteModal);
+    });
+  });
+
+  chatTriggers.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      openModal(chatModal);
     });
   });
 
@@ -131,7 +141,7 @@ function initPricingSwitcher() {
       const mode = btn.getAttribute('data-period'); //  monthly or weekly
 
       priceAmounts.forEach(el => {
-        const val = el.getAttribute(data-);
+        const val = el.getAttribute('data-' + mode);
         if (val) el.textContent = val;
       });
 
@@ -244,9 +254,9 @@ function initQuoteCalculator() {
 
     if (isWeekly) {
       const weekly = Math.round(cameraTotal / 4.33);
-      estimatedCost.textContent = \{weekly} / week;
+      estimatedCost.textContent = `$${weekly} / week`;
     } else {
-      estimatedCost.textContent = \{cameraTotal} / month;
+      estimatedCost.textContent = `$${cameraTotal} / month`;
     }
   }
 
@@ -304,12 +314,12 @@ function showToast(message) {
     document.body.appendChild(toast);
   }
 
-  toast.innerHTML = 
-    <svg width=\22\ height=\22\ fill=\none\ stroke=\#10b981\ stroke-width=\2\ viewBox=\0 0 24 24\>
-      <path stroke-linecap=\round\ stroke-linejoin=\round\ d=\M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\/>
+  toast.innerHTML = `
+    <svg width="22" height="22" fill="none" stroke="#10b981" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
     </svg>
-    <span>\</span>
-  ;
+    <span>${message}</span>
+  `;
 
   toast.classList.add('show');
 
@@ -317,3 +327,63 @@ function showToast(message) {
     toast.classList.remove('show');
   }, 4500);
 }
+
+/* --- Live Chat Interactive Engine --- */
+function initLiveChat() {
+  const chatMessages = document.getElementById('chat-messages');
+  const chatInput = document.getElementById('chat-user-input');
+  const chatSendBtn = document.getElementById('chat-send-btn');
+  const chatChips = document.querySelectorAll('.chat-chip');
+
+  if (!chatMessages) return;
+
+  function appendMessage(sender, text) {
+    const bubble = document.createElement('div');
+    bubble.className = sender === 'user' ? 'chat-bubble chat-bubble-user' : 'chat-bubble chat-bubble-operator';
+    bubble.innerHTML = text;
+    chatMessages.appendChild(bubble);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  function handleUserMessage(msgText) {
+    if (!msgText.trim()) return;
+    appendMessage('user', msgText);
+    if (chatInput) chatInput.value = '';
+
+    const lower = msgText.toLowerCase();
+
+    setTimeout(() => {
+      if (lower.includes('call') || lower.includes('phone') || lower.includes('speak') || lower.includes('operator') || lower.includes('number')) {
+        appendMessage('operator', 'Our 24/7 Operations Command Desk is available right now at <strong><a href="tel:18005552288" style="color:#60a5fa; text-decoration:underline;">(800) 555-CCTV</a></strong>. You can call immediately or leave your phone number here for an instant callback!');
+      } else if (lower.includes('camera') || lower.includes('compat') || lower.includes('hikvision') || lower.includes('dahua') || lower.includes('nvr') || lower.includes('dvr')) {
+        appendMessage('operator', 'Over 98% of existing camera systems (Hikvision, Dahua, Axis, Lorex, Uniview, Reolink, ONVIF) connect seamlessly without buying new hardware. Would you like to schedule a free compatibility audit?');
+      } else if (lower.includes('price') || lower.includes('cost') || lower.includes('quote') || lower.includes('rate') || lower.includes('month') || lower.includes('week')) {
+        appendMessage('operator', 'Our monitoring rates start from <strong>$35/month</strong> (or $9/week) per camera for After-Hours coverage, and <strong>$65/month</strong> for 24/7 continuous surveillance with live two-way talkdown. How many cameras do you have on site?');
+      } else {
+        appendMessage('operator', 'Thank you for messaging our Operations Center. A certified watch officer is reviewing your note. Please provide your business name or phone number so we can assist you with your surveillance setup immediately!');
+      }
+    }, 700);
+  }
+
+  if (chatSendBtn && chatInput) {
+    chatSendBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      handleUserMessage(chatInput.value);
+    });
+
+    chatInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        handleUserMessage(chatInput.value);
+      }
+    });
+  }
+
+  chatChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      const chipText = chip.getAttribute('data-msg') || chip.textContent;
+      handleUserMessage(chipText);
+    });
+  });
+}
+
