@@ -1,72 +1,17 @@
+<?php
+$pageTitle = "Contact 24/7 Monitoring Desk & Get Free Camera Assessment | VigilGuard";
+$pageDesc = "Connect with VigilGuard's 24/7 Operations Desk, request a free existing camera compatibility assessment, or calculate your custom monitoring quote.";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact & Assessment | VigilGuard 24/7 CCTV Video Monitoring</title>
-  <meta name="description" content="Get a free camera compatibility assessment or request an instant monitoring quote. 24/7 operations center support for commercial video monitoring.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <?php include('includes/head.php'); ?>
 </head>
 <body>
 
-  <!-- Top Operational Status Bar -->
-  <div class="top-status-bar">
-    <div class="container-wide top-status-content">
-      <div class="live-indicator">
-        <span class="pulse-dot"></span>
-        <span>Operations Center Active: Monitoring Feeds Nationwide 24/7/365</span>
-      </div>
-      <div class="top-links">
-        <span class="top-link-item">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          24/7 Desk: (800) 555-CCTV
-        </span>
-        <a href="#" class="top-link-item open-chat-modal" style="color: #60a5fa; font-weight: 600;">
-          Live Chat with Operations &rarr;
-        </a>
-      </div>
-    </div>
-  </div>
+  <?php include('includes/header.php'); ?>
 
-  <!-- Header & Navigation -->
-  <header class="site-header">
-    <div class="container-wide header-container">
-      <a href="index.html" class="brand-logo">
-        <div class="brand-logo-icon">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
-        </div>
-        <div>Vigil<span>Guard</span></div>
-      </a>
-
-      <nav class="nav-menu">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="services.html" class="nav-link">Service</a>
-        <a href="clients.html" class="nav-link">Our Clients</a>
-        <a href="about.html" class="nav-link">About Us</a>
-        <a href="contact.html" class="nav-link active">Contact Us</a>
-      </nav>
-
-      <div class="header-actions">
-        <a href="tel:18005552288" class="btn btn-secondary btn-sm">
-          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          Call Us Now
-        </a>
-        <button class="btn btn-primary btn-sm open-chat-modal">
-          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-          Live Chat
-        </button>
-      </div>
-
-      <button class="mobile-toggle" aria-label="Toggle Navigation">
-        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
-      </button>
-    </div>
-  </header>
-
-  <!-- Page Hero -->
+<!-- Page Hero -->
   <section class="page-hero">
     <div class="container">
       <span class="section-subtitle">24/7 Operations Desk</span>
@@ -315,117 +260,8 @@
 
   <!-- Mandatory Legal Compliance & Crime Prevention Disclaimer -->
   <div class="container" style="margin-top: 3.5rem;">
-    <div class="compliance-disclaimer-box">
-      <svg class="compliance-icon" width="22" height="22" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
-      <div>
-        <strong>Legal Operational Notice:</strong> VigilGuard remote video monitoring services provide an additional layer of human vigilance, proactive verification, and emergency alert escalation. Video monitoring services do not promise or guarantee that monitoring prevents crime, stops criminal acts from occurring, or guarantees police or emergency response times, which are subject to local municipal police policies and dispatch availability.
-      </div>
-    </div>
-  </div>
 
-  <!-- Site Footer -->
-  <footer class="site-footer" style="margin-top: 5rem;">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="brand-logo">
-          <div class="brand-logo-icon">
-            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
-          </div>
-          <div>Vigil<span>Guard</span></div>
-        </a>
-        <p>
-          24/7 Security Monitoring using the cameras you already have. Technology watches. People respond.
-        </p>
-      </div>
+  <?php include('includes/footer.php'); ?>
 
-      <div>
-        <h4 class="footer-col-title">Navigation</h4>
-        <ul class="footer-links-list">
-          <li><a href="index.html" class="footer-link">Home</a></li>
-          <li><a href="services.html" class="footer-link">Service</a></li>
-          <li><a href="clients.html" class="footer-link">Our Clients</a></li>
-          <li><a href="about.html" class="footer-link">About Us</a></li>
-          <li><a href="contact.html" class="footer-link">Contact Us</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="footer-col-title">Featured Links</h4>
-        <ul class="footer-links-list">
-          <li><a href="#assessment-form-section" class="footer-link">Free Camera Compatibility Assessment</a></li>
-          <li><a href="#quote-form-section" class="footer-link">Request a Monitoring Quote</a></li>
-          <li><a href="services.html#compatibility" class="footer-link">Camera Compatibility Guide</a></li>
-          <li><a href="services.html#steps" class="footer-link">How It Works (5 Steps)</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4 class="footer-col-title">Operations Desk</h4>
-        <div class="footer-contact-item">
-          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          <span>Toll-Free: (800) 555-CCTV</span>
-        </div>
-        <div class="footer-contact-item">
-          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          <span>desk@vigilguardcctv.com</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="container footer-bottom">
-      <div>&copy; 2026 VigilGuard Remote Video Monitoring. All rights reserved.</div>
-      <div>Technology Watches. People Respond. &bull; Use The Cameras You Already Have.</div>
-    </div>
-  </footer>
-
-  <!-- FLOATING LIVE CHAT BUTTON -->
-  <button class="floating-chat-btn open-chat-modal" aria-label="Open 24/7 Live Chat">
-    <span class="pulse-dot"></span>
-    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-    <span>Live Chat</span>
-  </button>
-
-  <!-- MODAL: 24/7 Live Operations Desk Chat -->
-  <div class="modal-overlay" id="modal-chat" role="dialog" aria-modal="true">
-    <div class="modal-content" style="max-width: 520px; padding: 1.5rem;">
-      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
-      <div class="chat-window">
-        <div class="chat-header-bar">
-          <div class="chat-agent-info">
-            <div class="chat-agent-avatar">
-              <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-              <span class="status-dot"></span>
-            </div>
-            <div>
-              <div style="font-size: 1rem; font-weight: 700; color: var(--text-white);">SOC Watch Commander</div>
-              <div style="font-size: 0.775rem; color: #34d399; display: flex; align-items: center; gap: 0.35rem;">
-                <span class="pulse-dot" style="width: 6px; height: 6px;"></span>
-                Online &bull; 24/7 Remote Monitoring Desk
-              </div>
-            </div>
-          </div>
-          <a href="tel:18005552288" class="btn btn-primary btn-sm" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Call Us</a>
-        </div>
-        <div class="chat-messages-container" id="chat-messages">
-          <div class="chat-bubble chat-bubble-operator">
-            👋 <strong>Welcome to VigilGuard Operations Desk.</strong> I am actively monitoring live security feeds on shift. How can we assist you with your security cameras today?
-          </div>
-        </div>
-        <div class="chat-chips-wrap">
-          <button class="chat-chip" data-msg="Can I monitor my existing camera system?">🔍 Check My Cameras</button>
-          <button class="chat-chip" data-msg="What are your weekly and monthly pricing plans?">💰 Pricing Plans</button>
-          <button class="chat-chip" data-msg="I would like to speak with an operator now.">📞 Speak with Operator</button>
-        </div>
-        <div class="chat-input-box">
-          <input type="text" id="chat-user-input" class="form-control" placeholder="Type a message or ask a question..." style="font-size: 0.875rem;">
-          <button id="chat-send-btn" class="btn btn-primary" style="padding: 0.75rem 1.2rem;">
-            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
