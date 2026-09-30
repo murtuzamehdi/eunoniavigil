@@ -253,12 +253,16 @@ function initQuoteCalculator() {
     // Minimum site charge
     if (cameraTotal < 140) cameraTotal = 140;
 
+    let rateStr = '';
     if (isWeekly) {
       const weekly = Math.round(cameraTotal / 4.33);
-      estimatedCost.textContent = `$${weekly} / week`;
+      rateStr = `$${weekly} / week`;
     } else {
-      estimatedCost.textContent = `$${cameraTotal} / month`;
+      rateStr = `$${cameraTotal} / month`;
     }
+    estimatedCost.textContent = rateStr;
+    const hiddenRate = document.getElementById('quote-hidden-rate');
+    if (hiddenRate) hiddenRate.value = rateStr;
   }
 
   cameraRange.addEventListener('input', calculateQuote);
@@ -274,34 +278,60 @@ function initContactForms() {
   const forms = document.querySelectorAll('form[data-lead-form]');
 
   forms.forEach(form => {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
       
-      const submitBtn = form.querySelector('button[type=\submit\]');
+      const submitBtn = form.querySelector('button[type="submit"]');
       const originalText = submitBtn ? submitBtn.innerHTML : 'Submit';
 
       if (submitBtn) {
         submitBtn.disabled = true;
-        submitBtn.innerHTML = '<span>Processing Details...</span>';
+        submitBtn.innerHTML = '<span>Transmitting Lead Details...</span>';
       }
 
-      setTimeout(() => {
+      const formData = new FormData(form);
+      formData.append('is_ajax', '1');
+
+      try {
+        const response = await fetch(form.getAttribute('action') || 'send-mail.php', {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'X-Requested-With': 'XMLHttpRequest'
+          }
+        });
+
+        const data = await response.json();
+
+        if (data && data.success) {
+          showToast('Request Received! Our Operations Desk will contact you within 15 minutes.');
+          form.reset();
+
+          // Close active modal if any
+          const activeModal = form.closest('.modal-overlay');
+          if (activeModal) {
+            activeModal.classList.remove('active');
+            document.body.style.overflow = '';
+          }
+
+          // Smooth redirect to Thank You page
+          setTimeout(() => {
+            window.location.href = data.redirect || 'thank-you/';
+          }, 1200);
+
+        } else {
+          // If server failed, fallback to native submission
+          form.submit();
+        }
+      } catch (err) {
+        // Fallback to standard HTTP POST submit if fetch fails
+        form.submit();
+      } finally {
         if (submitBtn) {
           submitBtn.disabled = false;
           submitBtn.innerHTML = originalText;
         }
-
-        form.reset();
-
-        // Close any active modal
-        const activeModal = form.closest('.modal-overlay');
-        if (activeModal) {
-          activeModal.classList.remove('active');
-          document.body.style.overflow = '';
-        }
-
-        showToast('Request Received! A Monitoring Operations Specialist will contact you within 15 minutes.');
-      }, 1000);
+      }
     });
   });
 }

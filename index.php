@@ -27,6 +27,12 @@ if ($trimmed_url === '' || $trimmed_url === 'index' || $trimmed_url === 'index.p
     die();
 }
 
+// Direct send-mail endpoint support
+if ($trimmed_url === 'send-mail' || $trimmed_url === 'send-mail.php') {
+    require __DIR__ . '/send-mail.php';
+    die();
+}
+
 // Route to corresponding view
 if (in_array($trimmed_url, $fileWithOutExt)) {
     require $dir . '/' . $trimmed_url . '.php';

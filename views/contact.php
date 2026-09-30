@@ -76,33 +76,39 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
             Find out if your existing cameras can connect to our Operations Center without buying new equipment.
           </p>
 
-          <form data-lead-form>
+          <form data-lead-form action="send-mail.php" method="POST">
+            <input type="hidden" name="form_type" value="Camera Compatibility Assessment">
+            <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($token ?? '') ?>">
+            <input type="hidden" name="page_url" value="<?= htmlspecialchars($_SERVER['REQUEST_URI'] ?? '/contact/') ?>">
+            <!-- Anti-spam Honeypot -->
+            <input type="text" name="_hp_company" style="display:none !important;" tabindex="-1" autocomplete="off">
+
             <div class="grid-2" style="gap: 1rem;">
               <div class="form-group">
                 <label class="form-label">Contact Name *</label>
-                <input type="text" class="form-control" placeholder="Sarah Jenkins" required>
+                <input type="text" name="full_name" class="form-control" placeholder="Sarah Jenkins" required>
               </div>
               <div class="form-group">
                 <label class="form-label">Business Name *</label>
-                <input type="text" class="form-control" placeholder="Summit Logistics" required>
+                <input type="text" name="business_name" class="form-control" placeholder="Summit Logistics" required>
               </div>
             </div>
 
             <div class="grid-2" style="gap: 1rem;">
               <div class="form-group">
                 <label class="form-label">Work Email *</label>
-                <input type="email" class="form-control" placeholder="sarah@summitlogistics.com" required>
+                <input type="email" name="email" class="form-control" placeholder="sarah@summitlogistics.com" required>
               </div>
               <div class="form-group">
                 <label class="form-label">Direct Phone *</label>
-                <input type="tel" class="form-control" placeholder="(555) 321-9876" required>
+                <input type="tel" name="phone" class="form-control" placeholder="(555) 321-9876" required>
               </div>
             </div>
 
             <div class="grid-2" style="gap: 1rem;">
               <div class="form-group">
                 <label class="form-label">Current Camera Brand</label>
-                <select class="form-control" required>
+                <select name="camera_brand" class="form-control" required>
                   <option value="">Select your existing brand...</option>
                   <option value="Hikvision">Hikvision (IP / Turbo HD)</option>
                   <option value="Dahua">Dahua Technology</option>
@@ -117,25 +123,25 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
               </div>
               <div class="form-group">
                 <label class="form-label">Total Number of Cameras</label>
-                <input type="number" class="form-control" min="1" max="500" placeholder="e.g. 12" required>
+                <input type="number" name="camera_count" class="form-control" min="1" max="500" placeholder="e.g. 12" required>
               </div>
             </div>
 
             <div class="form-group">
               <label class="form-label">Facility Type</label>
-              <select class="form-control">
-                <option value="retail">Retail Store / Supermarket</option>
-                <option value="gas-station">Gas Station / Convenience Store</option>
-                <option value="warehouse">Warehouse / Logistics Yard</option>
-                <option value="showroom">Showroom / Dealership</option>
-                <option value="multi-site">Multi-Site Franchise</option>
-                <option value="other">Other Commercial Facility</option>
+              <select name="facility_type" class="form-control">
+                <option value="Retail Store / Supermarket">Retail Store / Supermarket</option>
+                <option value="Gas Station / Convenience Store">Gas Station / Convenience Store</option>
+                <option value="Warehouse / Logistics Yard">Warehouse / Logistics Yard</option>
+                <option value="Showroom / Dealership">Showroom / Dealership</option>
+                <option value="Multi-Site Franchise">Multi-Site Franchise</option>
+                <option value="Other Commercial Facility">Other Commercial Facility</option>
               </select>
             </div>
 
             <div class="form-group">
               <label class="form-label">Notes on Current Setup (Optional)</label>
-              <textarea class="form-control" placeholder="Do you have horn speakers, external NVRs, or specific blind spots?"></textarea>
+              <textarea name="message" class="form-control" placeholder="Do you have horn speakers, external NVRs, or specific blind spots?"></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary btn-full btn-lg" style="margin-top: 0.5rem;">
@@ -155,36 +161,43 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
             Get an instant custom quote with transparent weekly or monthly billing options.
           </p>
 
-          <form data-lead-form>
+          <form data-lead-form action="send-mail.php" method="POST">
+            <input type="hidden" name="form_type" value="Custom Monitoring Quote">
+            <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($token ?? '') ?>">
+            <input type="hidden" name="page_url" value="<?= htmlspecialchars($_SERVER['REQUEST_URI'] ?? '/contact/') ?>">
+            <input type="hidden" name="estimated_rate" id="quote-hidden-rate" value="$360 / month">
+            <!-- Anti-spam Honeypot -->
+            <input type="text" name="_hp_company" style="display:none !important;" tabindex="-1" autocomplete="off">
+
             <div class="form-group">
               <label class="form-label" style="display: flex; justify-content: space-between;">
                 <span>Number of Cameras:</span>
                 <span id="quote-camera-count" style="font-weight: 700; color: var(--primary-light); font-size: 1.1rem;">8</span>
               </label>
-              <input type="range" id="quote-camera-range" min="2" max="64" value="8" step="1" style="width: 100%; accent-color: var(--primary);">
+              <input type="range" name="camera_count" id="quote-camera-range" min="2" max="64" value="8" step="1" style="width: 100%; accent-color: var(--primary);">
             </div>
 
             <div class="grid-2" style="gap: 1rem;">
               <div class="form-group">
                 <label class="form-label">Coverage Hours</label>
-                <select id="quote-tier-select" class="form-control">
-                  <option value="after-hours">After-Hours & Weekends</option>
-                  <option value="24-7">24/7 Continuous Watch</option>
-                  <option value="perimeter">Perimeter & Gate Focused</option>
+                <select name="coverage_hours" id="quote-tier-select" class="form-control">
+                  <option value="After-Hours & Weekends">After-Hours & Weekends</option>
+                  <option value="24/7 Continuous Watch">24/7 Continuous Watch</option>
+                  <option value="Perimeter & Gate Focused">Perimeter & Gate Focused</option>
                 </select>
               </div>
               <div class="form-group">
                 <label class="form-label">Billing Frequency</label>
-                <select id="quote-billing-freq" class="form-control">
-                  <option value="monthly">Monthly Plan</option>
-                  <option value="weekly">Weekly Plan</option>
+                <select name="billing_freq" id="quote-billing-freq" class="form-control">
+                  <option value="Monthly Plan">Monthly Plan</option>
+                  <option value="Weekly Plan">Weekly Plan</option>
                 </select>
               </div>
             </div>
 
             <div class="form-group" style="background: rgba(15, 23, 42, 0.6); padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid var(--border-subtle);">
               <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; margin: 0; font-size: 0.9rem;">
-                <input type="checkbox" id="quote-talkdown-addon" checked style="accent-color: var(--primary); width: 16px; height: 16px;">
+                <input type="checkbox" name="talkdown_addon" id="quote-talkdown-addon" value="Yes - Two-Way Talkdown" checked style="accent-color: var(--primary); width: 16px; height: 16px;">
                 <span>Include Two-Way Live Audio Talk-Down</span>
               </label>
             </div>
@@ -200,12 +213,23 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
 
             <div class="grid-2" style="gap: 1rem;">
               <div class="form-group">
+                <label class="form-label">Contact Name *</label>
+                <input type="text" name="full_name" class="form-control" placeholder="Michael Vance" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Business / Facility Name</label>
+                <input type="text" name="business_name" class="form-control" placeholder="QuickStop Convenience">
+              </div>
+            </div>
+
+            <div class="grid-2" style="gap: 1rem;">
+              <div class="form-group">
                 <label class="form-label">Email *</label>
-                <input type="email" class="form-control" placeholder="michael@quickstop.com" required>
+                <input type="email" name="email" class="form-control" placeholder="michael@quickstop.com" required>
               </div>
               <div class="form-group">
                 <label class="form-label">Phone Number *</label>
-                <input type="tel" class="form-control" placeholder="(555) 444-1234" required>
+                <input type="tel" name="phone" class="form-control" placeholder="(555) 444-1234" required>
               </div>
             </div>
 

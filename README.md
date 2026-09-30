@@ -25,6 +25,7 @@ The website follows a clean modular PHP router architecture:
 ├── .htaccess             # Apache rewrite rules for clean URLs
 ├── .gitignore            # Git exclusions
 ├── index.php             # Front controller & clean URL router
+├── send-mail.php         # SMTP lead notification handler (sales@eunoiavigil.com)
 ├── includes/
 │   ├── head.php          # Meta tags, favicons, fonts, CSS stylesheets, CSRF token
 │   ├── header.php        # Top status bar, brand logo, navigation menu, CTAs
@@ -36,6 +37,7 @@ The website follows a clean modular PHP router architecture:
 │   ├── clients.php       # Industry playbooks (Retail, Gas Stations, Warehouses)
 │   ├── about.php         # SOC infrastructure, response protocols, company info
 │   ├── contact.php       # Contact form, assessment calculator, office details
+│   ├── thank-you.php     # Lead confirmation & next steps view
 │   └── 404.php           # Error fallback page
 └── assets/
     ├── css/style.css     # Clean CSS design system

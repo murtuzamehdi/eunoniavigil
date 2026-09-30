@@ -85,33 +85,39 @@
         Provide details on your existing system. Our engineers verify camera stream compatibility without any commitment.
       </p>
 
-      <form data-lead-form>
+      <form data-lead-form action="send-mail.php" method="POST">
+        <input type="hidden" name="form_type" value="Camera Compatibility Assessment (Modal)">
+        <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($token ?? '') ?>">
+        <input type="hidden" name="page_url" value="<?= htmlspecialchars($_SERVER['REQUEST_URI'] ?? '/') ?>">
+        <!-- Anti-spam Honeypot -->
+        <input type="text" name="_hp_company" style="display:none !important;" tabindex="-1" autocomplete="off">
+
         <div class="grid-2" style="gap: 1rem;">
           <div class="form-group">
             <label class="form-label">Full Name</label>
-            <input type="text" class="form-control" placeholder="Jane Smith" required>
+            <input type="text" name="full_name" class="form-control" placeholder="Jane Smith" required>
           </div>
           <div class="form-group">
             <label class="form-label">Business Name</label>
-            <input type="text" class="form-control" placeholder="Acme Retail Stores" required>
+            <input type="text" name="business_name" class="form-control" placeholder="Acme Retail Stores" required>
           </div>
         </div>
 
         <div class="grid-2" style="gap: 1rem;">
           <div class="form-group">
             <label class="form-label">Work Email</label>
-            <input type="email" class="form-control" placeholder="jane@acme.com" required>
+            <input type="email" name="email" class="form-control" placeholder="jane@acme.com" required>
           </div>
           <div class="form-group">
             <label class="form-label">Direct Phone</label>
-            <input type="tel" class="form-control" placeholder="(555) 234-5678" required>
+            <input type="tel" name="phone" class="form-control" placeholder="(555) 234-5678" required>
           </div>
         </div>
 
         <div class="grid-2" style="gap: 1rem;">
           <div class="form-group">
             <label class="form-label">Current Camera Brand / System</label>
-            <select class="form-control" required>
+            <select name="camera_brand" class="form-control" required>
               <option value="">Select your existing brand...</option>
               <option value="Hikvision">Hikvision (IP / NVR)</option>
               <option value="Dahua">Dahua (NVR / WizSense)</option>
@@ -126,7 +132,7 @@
           </div>
           <div class="form-group">
             <label class="form-label">Camera Count</label>
-            <select class="form-control" required>
+            <select name="camera_count" class="form-control" required>
               <option value="1-4">1 to 4 Cameras</option>
               <option value="5-8" selected>5 to 8 Cameras</option>
               <option value="9-16">9 to 16 Cameras</option>
@@ -138,19 +144,19 @@
 
         <div class="form-group">
           <label class="form-label">Facility Type</label>
-          <select class="form-control">
-            <option value="retail">Retail Store / Supermarket</option>
-            <option value="gas-station">Gas Station / Convenience Store</option>
-            <option value="warehouse">Warehouse / Logistics Yard</option>
-            <option value="showroom">Commercial Showroom / Dealership</option>
-            <option value="multi-site">Multi-Site Chain / Franchise</option>
-            <option value="office">Commercial Building</option>
+          <select name="facility_type" class="form-control">
+            <option value="Retail Store / Supermarket">Retail Store / Supermarket</option>
+            <option value="Gas Station / Convenience Store">Gas Station / Convenience Store</option>
+            <option value="Warehouse / Logistics Yard">Warehouse / Logistics Yard</option>
+            <option value="Commercial Showroom / Dealership">Commercial Showroom / Dealership</option>
+            <option value="Multi-Site Chain / Franchise">Multi-Site Chain / Franchise</option>
+            <option value="Commercial Building">Commercial Building</option>
           </select>
         </div>
 
         <div class="form-group">
           <label class="form-label">Existing Setup Details (Optional)</label>
-          <textarea class="form-control" placeholder="Mention if you already have an internet connection on site, audio speakers, or specific blind spots..."></textarea>
+          <textarea name="message" class="form-control" placeholder="Mention if you already have an internet connection on site, audio speakers, or specific blind spots..."></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary btn-full btn-lg" style="margin-top: 0.5rem;">
@@ -173,37 +179,43 @@
         Get an exact weekly or monthly estimate for monitoring your existing camera system.
       </p>
 
-      <form data-lead-form>
+      <form data-lead-form action="send-mail.php" method="POST">
+        <input type="hidden" name="form_type" value="Monitoring Quote Request (Modal)">
+        <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($token ?? '') ?>">
+        <input type="hidden" name="page_url" value="<?= htmlspecialchars($_SERVER['REQUEST_URI'] ?? '/') ?>">
+        <!-- Anti-spam Honeypot -->
+        <input type="text" name="_hp_company" style="display:none !important;" tabindex="-1" autocomplete="off">
+
         <div class="grid-2" style="gap: 1rem;">
           <div class="form-group">
             <label class="form-label">Contact Name</label>
-            <input type="text" class="form-control" placeholder="Mark Davis" required>
+            <input type="text" name="full_name" class="form-control" placeholder="Mark Davis" required>
           </div>
           <div class="form-group">
             <label class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" placeholder="(555) 345-6789" required>
+            <input type="tel" name="phone" class="form-control" placeholder="(555) 345-6789" required>
           </div>
         </div>
 
         <div class="form-group">
           <label class="form-label">Company Email</label>
-          <input type="email" class="form-control" placeholder="mark@company.com" required>
+          <input type="email" name="email" class="form-control" placeholder="mark@company.com" required>
         </div>
 
         <div class="grid-2" style="gap: 1rem;">
           <div class="form-group">
             <label class="form-label">Hours Required</label>
-            <select class="form-control" required>
-              <option value="after-hours">After-Hours & Weekends</option>
-              <option value="24-7">24/7 Continuous Monitoring</option>
-              <option value="custom">Custom Schedule</option>
+            <select name="coverage_hours" class="form-control" required>
+              <option value="After-Hours & Weekends">After-Hours & Weekends</option>
+              <option value="24/7 Continuous Monitoring">24/7 Continuous Monitoring</option>
+              <option value="Custom Schedule">Custom Schedule</option>
             </select>
           </div>
           <div class="form-group">
             <label class="form-label">Billing Cadence</label>
-            <select class="form-control">
-              <option value="monthly">Monthly Plan (Predictable)</option>
-              <option value="weekly">Weekly Plan (Flexible)</option>
+            <select name="billing_freq" class="form-control">
+              <option value="Monthly Plan (Predictable)">Monthly Plan (Predictable)</option>
+              <option value="Weekly Plan (Flexible)">Weekly Plan (Flexible)</option>
             </select>
           </div>
         </div>
@@ -211,13 +223,13 @@
         <div class="grid-2" style="gap: 1rem;">
           <div class="form-group">
             <label class="form-label">Number of Cameras</label>
-            <input type="number" class="form-control" min="1" max="250" value="8" required>
+            <input type="number" name="camera_count" class="form-control" min="1" max="250" value="8" required>
           </div>
           <div class="form-group">
             <label class="form-label">Two-Way Voice Talk-Down?</label>
-            <select class="form-control">
-              <option value="yes">Include Live Talk-Down</option>
-              <option value="no">Monitoring & Alert Only</option>
+            <select name="talkdown_addon" class="form-control">
+              <option value="Include Live Talk-Down">Include Live Talk-Down</option>
+              <option value="Monitoring & Alert Only">Monitoring & Alert Only</option>
             </select>
           </div>
         </div>
