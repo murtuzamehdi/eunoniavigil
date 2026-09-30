@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "About VigilGuard | Technology Watches. People Respond.";
-$pageDesc = "Learn about VigilGuard's mission, certified operations center, triple redundancy, and our client governance rules for remote CCTV video monitoring.";
+$pageTitle = "About Eunoia Vigil | Intelligence-Driven Surveillance Solutions";
+$pageDesc = "Learn about Eunoia Vigil's mission, certified operations center, triple redundancy, and our client governance rules for remote CCTV video monitoring.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,10 +17,10 @@ $pageDesc = "Learn about VigilGuard's mission, certified operations center, trip
       <span class="section-subtitle">Our Purpose & Mission</span>
       <h1 class="page-hero-title">Technology Watches. <br><span class="text-gradient">People Respond.</span></h1>
       <p class="page-hero-desc">
-        We founded VigilGuard to bridge the dangerous gap between passive recording cameras and real-world incident response. Our remote monitoring team provides an active additional layer of vigilance over your business.
+        We founded Eunoia Vigil to bridge the dangerous gap between passive recording cameras and real-world incident response. Our remote monitoring team provides an active additional layer of vigilance over your business.
       </p>
       <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        <a href="tel:18005552288" class="btn btn-primary btn-lg">
+        <a href="tel:8442469291" class="btn btn-primary btn-lg">
           <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
           Call Us Now
         </a>
@@ -51,7 +51,7 @@ $pageDesc = "Learn about VigilGuard's mission, certified operations center, trip
             <p style="color: #cbd5e1; font-style: italic; margin-bottom: 0.25rem; font-size: 0.95rem;">
               "CCTV records what happened. Nobody may be watching in real time. Store staff cannot watch screens. Owners can't watch 24/7."
             </p>
-            <span style="font-size: 0.8rem; color: var(--primary-light); font-weight: 600;">— The VigilGuard Security Operations Principle</span>
+            <span style="font-size: 0.8rem; color: var(--primary-light); font-weight: 600;">— The Eunoia Vigil Security Operations Principle</span>
           </div>
           <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin: 0;">
             You don't need expensive new hardware leases. You already have cameras. What you need is <strong>professional human eyes</strong> backing them up.
@@ -69,7 +69,7 @@ $pageDesc = "Learn about VigilGuard's mission, certified operations center, trip
             </div>
           </div>
           <div class="cctv-viewport">
-            <img src="assets/images/hero-soc.jpg" alt="VigilGuard central Security Operations Center matrix" class="cctv-img" style="height: 380px;">
+            <img src="assets/images/hero-soc.jpg" alt="Eunoia Vigil central Security Operations Center matrix" class="cctv-img" style="height: 380px;">
             <div class="cctv-hud-timestamp live-cctv-time">2026-09-05 01:26:40 EST</div>
             <div class="cctv-hud-status-bottom">
               <div class="operator-tag">
@@ -88,7 +88,7 @@ $pageDesc = "Learn about VigilGuard's mission, certified operations center, trip
     <div class="container">
       <div class="section-title-wrap">
         <span class="section-subtitle">Infrastructure & Operators</span>
-        <h2 class="section-heading">Inside the VigilGuard Operations Center</h2>
+        <h2 class="section-heading">Inside the Eunoia Vigil Operations Center</h2>
         <p class="section-desc">
           Centralized SOC engineered for uninterrupted vigilance, high-speed verification, and protocol compliance.
         </p>
@@ -207,7 +207,7 @@ $pageDesc = "Learn about VigilGuard's mission, certified operations center, trip
         <span class="section-subtitle">Honest & Responsible Security</span>
         <h2 class="section-heading">Why We Don't Sell False Promises</h2>
         <p class="section-desc">
-          In an industry plagued by exaggerated marketing claims, VigilGuard believes in total clarity about what video surveillance can and cannot do.
+          In an industry plagued by exaggerated marketing claims, Eunoia Vigil believes in total clarity about what video surveillance can and cannot do.
         </p>
       </div>
 
@@ -243,12 +243,12 @@ $pageDesc = "Learn about VigilGuard's mission, certified operations center, trip
   <section class="container">
     <div class="cta-banner-section">
       <div class="cta-banner-content">
-        <h2 class="cta-banner-title">Experience the VigilGuard Difference</h2>
+        <h2 class="cta-banner-title">Experience the Eunoia Vigil Difference</h2>
         <p class="cta-banner-desc">
           Let us audit your current cameras for free, or get an upfront quote with no long-term contracts.
         </p>
         <div class="cta-banner-actions">
-          <a href="tel:18005552288" class="btn btn-primary btn-lg">
+          <a href="tel:8442469291" class="btn btn-primary btn-lg">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
             Call Us Now
           </a>

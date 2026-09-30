@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "404 - Feed Signal Lost | VigilGuard 24/7 CCTV Monitoring";
+$pageTitle = "404 - Feed Signal Lost | Eunoia Vigil 24/7 CCTV Monitoring";
 $pageDesc = "The requested surveillance feed or page could not be located on the operations center server.";
 ?>
 <!DOCTYPE html>

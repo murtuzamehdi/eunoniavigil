@@ -3,7 +3,7 @@
     <div class="compliance-disclaimer-box">
       <svg class="compliance-icon" width="22" height="22" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
       <div>
-        <strong>Legal Operational Notice:</strong> VigilGuard remote video monitoring services provide an additional layer of human vigilance, proactive verification, and emergency alert escalation. Video monitoring services do not promise or guarantee that monitoring prevents crime, stops criminal acts from occurring, or guarantees police or emergency response times, which are subject to local municipal police policies and dispatch availability.
+        <strong>Legal Operational Notice:</strong> Eunoia Vigil remote video monitoring services provided by Connectwise Consulting Inc provide an additional layer of human vigilance, proactive verification, and emergency alert escalation. Video monitoring services do not promise or guarantee that monitoring prevents crime, stops criminal acts from occurring, or guarantees police or emergency response times, which are subject to local municipal police policies and dispatch availability.
       </div>
     </div>
   </div>
@@ -12,17 +12,16 @@
   <footer class="site-footer" style="margin-top: 5rem;">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <a href="/" class="brand-logo">
-          <div class="brand-logo-icon">
-            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
-          </div>
-          <div>Vigil<span>Guard</span></div>
+        <a href="/" class="brand-logo" aria-label="Eunoia Vigil">
+          <img src="assets/images/eunoia-vigil-logo.png" alt="Eunoia Vigil - Intelligence-Driven Surveillance Solutions" class="site-brand-img" style="max-height: 48px; width: auto;">
         </a>
         <p>
           24/7 Security Monitoring using the cameras you already have. Technology watches. People respond.
         </p>
-        <div style="font-size: 0.85rem; color: var(--text-dim);">
-          SOC Operations: U.S. Nationwide Monitoring Hub<br>
+        <div style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.6; margin-top: 0.75rem;">
+          <strong style="color: var(--text-white);">Connectwise Consulting Inc</strong><br>
+          25722 Kingsland Blvd Suite 114<br>
+          Katy, TX 77494<br>
           Emergency Desk: 24/7/365
         </div>
       </div>
@@ -53,11 +52,15 @@
         <h4 class="footer-col-title">Operations Center</h4>
         <div class="footer-contact-item">
           <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          <span>Toll-Free: (800) 555-CCTV</span>
+          <a href="tel:8442469291" style="color: inherit; text-decoration: none;"><span>Toll-Free: (844) 246-9291</span></a>
         </div>
         <div class="footer-contact-item">
           <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-          <span>desk@vigilguardcctv.com</span>
+          <a href="mailto:desk@eunoiavigil.com" style="color: inherit; text-decoration: none;"><span>desk@eunoiavigil.com</span></a>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          <span>25722 Kingsland Blvd Suite 114, Katy 77494</span>
         </div>
         <div class="footer-contact-item">
           <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
@@ -67,8 +70,8 @@
     </div>
 
     <div class="container footer-bottom">
-      <div>&copy; <?= date('Y') ?> VigilGuard Remote Video Monitoring. All rights reserved.</div>
-      <div>Cameras Alone Don't Stop Crime. Monitored Cameras Help Respond.</div>
+      <div>&copy; <?= date('Y') ?> Connectwise Consulting Inc / Eunoia Vigil. All rights reserved.</div>
+      <div>Intelligence-Driven Surveillance Solutions &bull; People Respond.</div>
     </div>
   </footer>
 
@@ -255,11 +258,11 @@
               </div>
             </div>
           </div>
-          <a href="tel:18005552288" class="btn btn-primary btn-sm" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Call Us</a>
+          <a href="tel:8442469291" class="btn btn-primary btn-sm" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Call Us</a>
         </div>
         <div class="chat-messages-container" id="chat-messages">
           <div class="chat-bubble chat-bubble-operator">
-            👋 <strong>Welcome to VigilGuard Operations Desk.</strong> I am actively monitoring live security feeds on shift. How can we assist you with your security cameras today?
+            👋 <strong>Welcome to Eunoia Vigil Operations Desk.</strong> I am actively monitoring live security feeds on shift. How can we assist you with your security cameras today?
           </div>
         </div>
         <div class="chat-chips-wrap">

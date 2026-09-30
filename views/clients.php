@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Industry Security Solutions & Client Applications | VigilGuard Remote Monitoring";
-$pageDesc = "Discover how VigilGuard protects retail supermarkets, late-night gas stations, logistics warehouses, and auto dealerships with 24/7 active CCTV monitoring.";
+$pageTitle = "Industry Security Solutions & Client Applications | Eunoia Vigil";
+$pageDesc = "Discover how Eunoia Vigil protects retail supermarkets, late-night gas stations, logistics warehouses, and auto dealerships with 24/7 active CCTV monitoring.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,10 +17,10 @@ $pageDesc = "Discover how VigilGuard protects retail supermarkets, late-night ga
       <span class="section-subtitle">Commercial Sectors</span>
       <h1 class="page-hero-title">Protecting Businesses <br><span class="text-gradient">Where High Risks Demand Active Vigilance</span></h1>
       <p class="page-hero-desc">
-        Store employees cannot continuously watch multiple screens. Business owners can't monitor cameras 24/7. Discover how VigilGuard delivers peace of mind across diverse industries.
+        Store employees cannot continuously watch multiple screens. Business owners can't monitor cameras 24/7. Discover how Eunoia Vigil delivers peace of mind across diverse industries.
       </p>
       <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        <a href="tel:18005552288" class="btn btn-primary btn-lg">
+        <a href="tel:8442469291" class="btn btn-primary btn-lg">
           <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
           Call Us Now
         </a>
@@ -305,7 +305,7 @@ $pageDesc = "Discover how VigilGuard protects retail supermarkets, late-night ga
           No installation required. No unnecessary hardware purchases. Use what you already have and protect your facility 24/7.
         </p>
         <div class="cta-banner-actions">
-          <a href="tel:18005552288" class="btn btn-primary btn-lg">
+          <a href="tel:8442469291" class="btn btn-primary btn-lg">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
             Call Us Now
           </a>

@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Contact 24/7 Monitoring Desk & Get Free Camera Assessment | VigilGuard";
-$pageDesc = "Connect with VigilGuard's 24/7 Operations Desk, request a free existing camera compatibility assessment, or calculate your custom monitoring quote.";
+$pageTitle = "Contact 24/7 Monitoring Desk & Get Free Camera Assessment | Eunoia Vigil";
+$pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291, request a free existing camera compatibility assessment, or calculate your custom monitoring quote.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +32,9 @@ $pageDesc = "Connect with VigilGuard's 24/7 Operations Desk, request a free exis
           </div>
           <h3>24/7 Operations Desk</h3>
           <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">24/7/365 Live Shift</span>
-          <p style="color: var(--text-white); font-weight: 700; font-size: 1.2rem; margin-bottom: 0.25rem;">(800) 555-CCTV</p>
+          <p style="color: var(--text-white); font-weight: 700; font-size: 1.2rem; margin-bottom: 0.25rem;">
+            <a href="tel:8442469291" style="color: inherit; text-decoration: none;">(844) 246-9291</a>
+          </p>
           <p style="font-size: 0.85rem;">Live operator line for active escalations and client dispatch.</p>
         </div>
 
@@ -42,18 +44,20 @@ $pageDesc = "Connect with VigilGuard's 24/7 Operations Desk, request a free exis
           </div>
           <h3>General & Sales Inquiries</h3>
           <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">&lt; 15 Min Reply</span>
-          <p style="color: var(--text-white); font-weight: 700; font-size: 1.2rem; margin-bottom: 0.25rem;">desk@vigilguardcctv.com</p>
+          <p style="color: var(--text-white); font-weight: 700; font-size: 1.2rem; margin-bottom: 0.25rem;">
+            <a href="mailto:desk@eunoiavigil.com" style="color: inherit; text-decoration: none;">desk@eunoiavigil.com</a>
+          </p>
           <p style="font-size: 0.85rem;">Send floor plans or franchise RFPs directly to our engineers.</p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon-box">
-            <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           </div>
-          <h3>Average Setup Turnaround</h3>
-          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Same-Day Onboarding</span>
-          <p style="color: var(--text-white); font-weight: 700; font-size: 1.2rem; margin-bottom: 0.25rem;">&lt; 24 Hours</p>
-          <p style="font-size: 0.85rem;">Remote encrypted setup means your site is monitored tonight.</p>
+          <h3>Corporate Office & Dispatch</h3>
+          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Connectwise Consulting Inc</span>
+          <p style="color: var(--text-white); font-weight: 700; font-size: 1.1rem; margin-bottom: 0.25rem;">25722 Kingsland Blvd Suite 114</p>
+          <p style="font-size: 0.85rem;">Katy, TX 77494 &bull; National Operations Center</p>
         </div>
       </div>
     </div>
@@ -225,7 +229,7 @@ $pageDesc = "Connect with VigilGuard's 24/7 Operations Desk, request a free exis
         <span class="section-subtitle">Got Questions?</span>
         <h2 class="section-heading">Frequently Asked Questions</h2>
         <p class="section-desc">
-          Everything you need to know about connecting your existing cameras to VigilGuard.
+          Everything you need to know about connecting your existing cameras to Eunoia Vigil.
         </p>
       </div>
 

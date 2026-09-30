@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "VigilGuard | 24/7 Remote CCTV Video Monitoring Using Your Existing Cameras";
-$pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV cameras into an active 24/7 monitored security operations center. No new hardware, no installation required.";
+$pageTitle = "Eunoia Vigil | 24/7 Remote CCTV Video Monitoring Using Your Existing Cameras";
+$pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV cameras into an active 24/7 monitored security operations center with Eunoia Vigil. No new hardware, no installation required.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,11 +27,11 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
           24/7 Security Monitoring. Using the Cameras You Already Have.
         </p>
         <p class="hero-statement">
-          VigilGuard connects directly to your existing CCTV system—requiring <strong>zero new camera investment</strong>, <strong>no installation required</strong>, and delivering around-the-clock human surveillance from a professional operations center.
+          Eunoia Vigil connects directly to your existing CCTV system—requiring <strong>zero new camera investment</strong>, <strong>no installation required</strong>, and delivering around-the-clock human surveillance from a professional operations center.
         </p>
 
         <div class="hero-cta-group">
-          <a href="tel:18005552288" class="btn btn-primary btn-lg">
+          <a href="tel:8442469291" class="btn btn-primary btn-lg">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
             Call Us Now
           </a>
@@ -75,7 +75,7 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             </div>
           </div>
           <div class="cctv-viewport">
-            <img src="assets/images/hero-soc.jpg" alt="VigilGuard Security Operations Center with curved monitoring screens" class="cctv-img">
+            <img src="assets/images/hero-soc.jpg" alt="Eunoia Vigil Security Operations Center with curved monitoring screens" class="cctv-img">
             <div class="cctv-hud-timestamp live-cctv-time">2026-09-05 01:14:02 EST</div>
             <div class="cctv-detection-box">
               <span class="detection-tag">THREAT DETECTION: ACTIVE</span>
@@ -151,7 +151,7 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
         <div class="comp-card comp-card-monitored">
           <div class="comp-badge comp-badge-good">
             <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            VigilGuard Monitored Cameras
+            Eunoia Vigil Monitored Cameras
           </div>
           <h3>Technology Watches. People Respond.</h3>
           <p>Trained operators actively respond to live security events around the clock.</p>
@@ -193,7 +193,7 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
           </div>
           <span class="badge badge-green">98%+ Camera Compatibility</span>
         </div>
-        <img src="assets/images/network-diagram.jpg" alt="VigilGuard CCTV Network Connection Architecture: Existing Cameras to Cloud Bridge to Operations Center" class="diagram-img">
+        <img src="assets/images/network-diagram.jpg" alt="Eunoia Vigil CCTV Network Connection Architecture: Existing Cameras to Cloud Bridge to Operations Center" class="diagram-img">
         <div class="diagram-body">
           <div class="grid-3" style="gap: 1.5rem;">
             <div>
@@ -549,7 +549,7 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             <tr>
               <th>Evaluation Parameter</th>
               <th>Physical On-Site Guards</th>
-              <th class="highlight-col">VigilGuard Remote Monitoring</th>
+              <th class="highlight-col">Eunoia Vigil Remote Monitoring</th>
             </tr>
           </thead>
           <tbody>
@@ -599,7 +599,7 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
           No new hardware or installation needed. Pick an option below to connect with our Operations Team:
         </p>
         <div class="cta-banner-actions">
-          <a href="tel:18005552288" class="btn btn-primary btn-lg">
+          <a href="tel:8442469291" class="btn btn-primary btn-lg">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
             Call Us Now
           </a>

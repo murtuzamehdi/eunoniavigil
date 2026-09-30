@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "24/7 CCTV Video Monitoring Services & Transparent Pricing | VigilGuard";
-$pageDesc = "Explore VigilGuard remote video monitoring capabilities, camera compatibility check, live talk-down audio, and transparent weekly and monthly pricing plans.";
+$pageTitle = "24/7 CCTV Video Monitoring Services & Transparent Pricing | Eunoia Vigil";
+$pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera compatibility check, live talk-down audio, and transparent weekly and monthly pricing plans.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +20,7 @@ $pageDesc = "Explore VigilGuard remote video monitoring capabilities, camera com
         Trained operators watching feeds around the clock—not just recording for later review. No new hardware, no installation required, and no long-term lock-in.
       </p>
       <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        <a href="tel:18005552288" class="btn btn-primary btn-lg">
+        <a href="tel:8442469291" class="btn btn-primary btn-lg">
           <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
           Call Us Now
         </a>
@@ -379,7 +379,7 @@ $pageDesc = "Explore VigilGuard remote video monitoring capabilities, camera com
           Take the first step today. We will audit your current setup or deliver a transparent price breakdown within minutes.
         </p>
         <div class="cta-banner-actions">
-          <a href="tel:18005552288" class="btn btn-primary btn-lg">
+          <a href="tel:8442469291" class="btn btn-primary btn-lg">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
             Call Us Now
           </a>

@@ -1,5 +1,6 @@
 /**
- * VIGILGUARD 24/7 CCTV MONITORING - CORE JAVASCRIPT
+ * EUNOIA VIGIL 24/7 CCTV MONITORING - CORE JAVASCRIPT
+ * Connectwise Consulting Inc
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -354,7 +355,7 @@ function initLiveChat() {
 
     setTimeout(() => {
       if (lower.includes('call') || lower.includes('phone') || lower.includes('speak') || lower.includes('operator') || lower.includes('number')) {
-        appendMessage('operator', 'Our 24/7 Operations Command Desk is available right now at <strong><a href="tel:18005552288" style="color:#60a5fa; text-decoration:underline;">(800) 555-CCTV</a></strong>. You can call immediately or leave your phone number here for an instant callback!');
+        appendMessage('operator', 'Our 24/7 Operations Command Desk is available right now at <strong><a href="tel:8442469291" style="color:#60a5fa; text-decoration:underline;">(844) 246-9291</a></strong>. You can call immediately or leave your phone number here for an instant callback!');
       } else if (lower.includes('camera') || lower.includes('compat') || lower.includes('hikvision') || lower.includes('dahua') || lower.includes('nvr') || lower.includes('dvr')) {
         appendMessage('operator', 'Over 98% of existing camera systems (Hikvision, Dahua, Axis, Lorex, Uniview, Reolink, ONVIF) connect seamlessly without buying new hardware. Would you like to schedule a free compatibility audit?');
       } else if (lower.includes('price') || lower.includes('cost') || lower.includes('quote') || lower.includes('rate') || lower.includes('month') || lower.includes('week')) {
