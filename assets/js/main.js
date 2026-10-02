@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCompatibilityChecker();
   initQuoteCalculator();
   initContactForms();
+  initScrollAnimations();
 });
 
 /* --- Mobile Navigation Drawer --- */
@@ -417,4 +418,69 @@ function initLiveChat() {
     });
   });
 }
+
+/* --- Smooth On-Scroll Animation & Counter Engine --- */
+function initScrollAnimations() {
+  const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
+
+  if (revealElements.length > 0) {
+    if (!('IntersectionObserver' in window)) {
+      revealElements.forEach(el => el.classList.add('is-revealed'));
+    } else {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        root: null,
+        rootMargin: '0px 0px -50px 0px',
+        threshold: 0.1
+      });
+
+      revealElements.forEach(el => revealObserver.observe(el));
+    }
+  }
+
+  // Smooth number counter animation
+  const counterElements = document.querySelectorAll('.stat-counter-num[data-target]');
+  if (counterElements.length > 0 && ('IntersectionObserver' in window)) {
+    const counterObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const target = parseInt(el.getAttribute('data-target'), 10);
+          const duration = 1400; // ms
+          const startTime = performance.now();
+
+          function updateCounter(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            // Ease out cubic
+            const easeProgress = 1 - Math.pow(1 - progress, 3);
+            const currentVal = Math.floor(easeProgress * target);
+            el.textContent = currentVal;
+
+            if (progress < 1) {
+              requestAnimationFrame(updateCounter);
+            } else {
+              el.textContent = target;
+            }
+          }
+
+          requestAnimationFrame(updateCounter);
+          observer.unobserve(el);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -40px 0px',
+      threshold: 0.2
+    });
+
+    counterElements.forEach(el => counterObserver.observe(el));
+  }
+}
+
 

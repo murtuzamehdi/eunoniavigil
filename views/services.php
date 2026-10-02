@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "24/7 CCTV Video Monitoring Services & Transparent Pricing | Eunoia Vigil";
-$pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera compatibility check, live talk-down audio, and transparent weekly and monthly pricing plans.";
+$pageTitle = "24/7 CCTV Video Monitoring Services & Pricing | Eunoia Vigil";
+$pageDesc = "Professional remote video surveillance using your existing CCTV cameras. Live audio talk-down, verified mobile alerts, camera compatibility checker, and flexible weekly or monthly plans.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,13 +11,13 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
 
   <?php include('includes/header.php'); ?>
 
-<!-- Page Hero -->
+  <!-- Page Hero -->
   <section class="page-hero">
-    <div class="container">
-      <span class="section-subtitle">24/7 Remote Video Monitoring</span>
-      <h1 class="page-hero-title">Affordable Security Monitoring. <br><span class="text-gradient">Using The Cameras You Already Have.</span></h1>
+    <div class="container reveal">
+      <span class="section-subtitle">24/7 Remote Video Monitoring Services</span>
+      <h1 class="page-hero-title">Affordable Security Surveillance. <br><span class="text-gradient">Using the Cameras You Already Own.</span></h1>
       <p class="page-hero-desc">
-        Trained operators watching feeds around the clock—not just recording for later review. No new hardware, no installation required, and no long-term lock-in.
+        Trained security operators watching your feeds around the clock—intervening in real time rather than reviewing footage post-loss. Zero new equipment, zero installation downtime.
       </p>
       <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
         <a href="tel:8442469291" class="btn btn-primary btn-lg">
@@ -35,12 +35,12 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
   <!-- Core Services Detail with Operator Image -->
   <section class="section">
     <div class="container">
-      <div class="grid-2" style="align-items: center; gap: 3.5rem; margin-bottom: 5rem;">
-        <div>
-          <span class="section-subtitle">Operations Center Capabilities</span>
+      <div class="grid-2" style="align-items: center; gap: 3.5rem; margin-bottom: 4rem;">
+        <div class="reveal-left">
+          <span class="section-subtitle">Command Center Capabilities</span>
           <h2 class="section-heading" style="font-size: 2.2rem;">Live Human Operators. <br>Instant Incident Verification.</h2>
           <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 1.5rem;">
-            A recording camera can capture an incident. A monitored camera can help respond to it. Our Operations Center bridges your existing video feeds directly to certified security professionals who monitor in real time.
+            Unmonitored cameras only observe crime. Our Operations Center connects your existing CCTV feeds directly to certified surveillance specialists who stop incidents in progress.
           </p>
 
           <div style="display: flex; flex-direction: column; gap: 1.25rem;">
@@ -49,8 +49,8 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
                 <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
               </div>
               <div>
-                <h4 style="font-size: 1.1rem; margin-bottom: 0.35rem;">24/7 Human Vigilance</h4>
-                <p style="color: var(--text-muted); font-size: 0.9rem;">Trained operators watching feeds around the clock. Constant rotation prevents fatigue, ensuring high alertness during critical shift windows.</p>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem;">24/7 Human Shift Supervision</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0;">Certified operators rotate across structured shifts to maintain peak vigilance and spot threats without alert fatigue.</p>
               </div>
             </div>
 
@@ -59,8 +59,8 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
                 <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z"/></svg>
               </div>
               <div>
-                <h4 style="font-size: 1.1rem; margin-bottom: 0.35rem;">Live Audio Talk-Down & Siren Triggers</h4>
-                <p style="color: var(--text-muted); font-size: 0.9rem;">Real-time verbal warnings broadcasted directly over on-site horn speakers or PA systems. Live voice interventions deter suspects immediately.</p>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Live Two-Way Voice Talk-Down</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0;">Direct verbal warnings broadcast over on-site horn speakers or PA units to startle and expel suspects immediately.</p>
               </div>
             </div>
 
@@ -69,14 +69,14 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
                 <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
               </div>
               <div>
-                <h4 style="font-size: 1.1rem; margin-bottom: 0.35rem;">Rapid Escalation Protocol</h4>
-                <p style="color: var(--text-muted); font-size: 0.9rem;">Pre-configured escalation paths contact designated keyholders within seconds of verified detection.</p>
+                <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Under 15-Second Escalation</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0;">Pre-approved escalation call trees instantly contact designated keyholders with verified video evidence.</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="cctv-frame">
+        <div class="cctv-frame reveal-right">
           <div class="cctv-header-bar">
             <div class="cctv-title-tag">
               <span>OPERATOR WORKSTATION // CONSOLE #04</span>
@@ -87,12 +87,12 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
             </div>
           </div>
           <div class="cctv-viewport">
-            <img src="assets/images/operator-desk.jpg" alt="Professional security monitoring operator at workstation with dual monitors" class="cctv-img" style="height: 420px;">
+            <img src="assets/images/operator-desk.jpg" alt="Professional security monitoring specialist at workstation monitoring surveillance feeds" class="cctv-img" style="height: 420px;">
             <div class="cctv-hud-timestamp live-cctv-time">2026-09-05 01:18:22 EST</div>
             <div class="cctv-hud-status-bottom">
               <div class="operator-tag">
                 <span class="pulse-dot"></span>
-                <span>Active Monitoring Protocol: Grade-A Operations Center</span>
+                <span>Active Shift: Grade-A Operations Center</span>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
       </div>
 
       <!-- Two Visual Feature Cards: Audio Talk-Down & Mobile Alert -->
-      <div class="grid-2" style="gap: 2rem; margin-top: 1rem;">
+      <div class="grid-2 reveal-group" style="gap: 2rem;">
         <!-- Visual Card 1: Two-Way Audio Talk-Down -->
         <div class="visual-diagram-card" style="margin-bottom: 0;">
           <div class="diagram-header-bar">
@@ -108,15 +108,15 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
             <span class="badge badge-blue">Real-Time Voice</span>
           </div>
           <div style="height: 280px; overflow: hidden;">
-            <img src="assets/images/talkdown-horn.jpg" alt="Commercial outdoor security camera with two-way voice horn speaker and strobe light" style="width: 100%; height: 100%; object-fit: cover;">
+            <img src="assets/images/talkdown-horn.jpg" alt="Commercial horn loudspeaker and outdoor security camera mounted on commercial brick building" style="width: 100%; height: 100%; object-fit: cover;">
           </div>
           <div class="diagram-body" style="padding: 1.25rem 1.5rem;">
-            <h4 style="font-size: 1.15rem; color: var(--text-white); margin-bottom: 0.35rem;">Live Audio Talk-Down Horn</h4>
+            <h4 style="font-size: 1.15rem; color: var(--text-white); margin-bottom: 0.35rem;">Live Audio Talk-Down Speaker</h4>
             <div class="metric-pill-row">
-              <span class="metric-pill pill-green">Voice Intervention &lt; 8s</span>
+              <span class="metric-pill pill-green">Voice Warning &lt; 8s</span>
               <span class="metric-pill">High-Decibel Strobe</span>
             </div>
-            <p style="font-size: 0.875rem; color: var(--text-muted); margin: 0;">Operators speak directly to trespassers via external horn speakers to stop theft before damage occurs.</p>
+            <p style="font-size: 0.875rem; color: var(--text-muted); margin: 0;">Operators challenge loiterers and trespassers in real time over external horn speakers, stopping theft before break-in.</p>
           </div>
         </div>
 
@@ -127,61 +127,61 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
             <span class="badge badge-green">&lt; 15s Delivery</span>
           </div>
           <div style="height: 280px; overflow: hidden; background: #0b1120; display: flex; align-items: center; justify-content: center;">
-            <img src="assets/images/mobile-alert.jpg" alt="Instant mobile security alert notification on smartphone screen with live verified video feed" style="height: 100%; width: auto; max-width: 100%; object-fit: contain;">
+            <img src="assets/images/mobile-alert.jpg" alt="Smartphone displaying verified security alert notification with incident snapshot and live stream link" style="height: 100%; width: auto; max-width: 100%; object-fit: contain;">
           </div>
           <div class="diagram-body" style="padding: 1.25rem 1.5rem;">
-            <h4 style="font-size: 1.15rem; color: var(--text-white); margin-bottom: 0.35rem;">Verified Video Alert to Mobile</h4>
+            <h4 style="font-size: 1.15rem; color: var(--text-white); margin-bottom: 0.35rem;">Verified Smartphone Video Alerts</h4>
             <div class="metric-pill-row">
-              <span class="metric-pill pill-green">100% Verified by SOC</span>
+              <span class="metric-pill pill-green">100% Human Verified</span>
               <span class="metric-pill">Zero False Alarms</span>
             </div>
-            <p style="font-size: 0.875rem; color: var(--text-muted); margin: 0;">Managers receive instant SMS & call alerts with a verified video snippet and direct 1-tap operator connect.</p>
+            <p style="font-size: 0.875rem; color: var(--text-muted); margin: 0;">Managers receive instant SMS & call alerts with an annotated video snippet and direct 1-tap connection to our desk.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- How It Works - 5 Simple Steps Section [Detailed Highlight] -->
+  <!-- How It Works - 5 Simple Steps Section -->
   <section class="section" id="steps" style="background: var(--bg-darker); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
     <div class="container">
-      <div class="section-title-wrap">
+      <div class="section-title-wrap reveal">
         <span class="section-subtitle">Zero Friction Implementation</span>
-        <h2 class="section-heading">How It Works - 5 Simple Steps</h2>
+        <h2 class="section-heading">How It Works: 5 Simple Steps</h2>
         <p class="section-desc">
           Onboard existing cameras in less than 24 hours. Zero downtime, zero wiring changes.
         </p>
       </div>
 
-      <div class="steps-grid">
+      <div class="steps-grid reveal-group">
         <div class="step-card">
           <div class="step-number">01</div>
-          <h3>1. Connect</h3>
-          <p>Secure encrypted VPN or RTSP connection to your existing cameras. No new hardware.</p>
+          <h3>Connect</h3>
+          <p>Secure encrypted VPN or RTSP stream connection to your existing cameras. No new hardware purchase.</p>
         </div>
 
         <div class="step-card">
           <div class="step-number">02</div>
-          <h3>2. Configure</h3>
-          <p>Define priority cameras, blind spots, virtual tripwires, and monitoring schedules.</p>
+          <h3>Configure</h3>
+          <p>Define priority cameras, blind spots, virtual perimeter tripwires, and monitoring schedules.</p>
         </div>
 
         <div class="step-card">
           <div class="step-number">03</div>
-          <h3>3. Monitor</h3>
-          <p>Certified security professionals watch designated feeds per your exact schedule.</p>
+          <h3>Monitor</h3>
+          <p>Certified security professionals watch designated feeds per your exact operational schedule.</p>
         </div>
 
         <div class="step-card">
           <div class="step-number">04</div>
-          <h3>4. Respond</h3>
-          <p>Instant threat verification, live voice talk-down, and urgent manager contact.</p>
+          <h3>Respond</h3>
+          <p>Instant human threat verification, live voice talk-down deterrence, and urgent keyholder escalation.</p>
         </div>
 
         <div class="step-card">
           <div class="step-number">05</div>
-          <h3>5. Document</h3>
-          <p>Timestamped video archives and incident logs delivered for permanent legal records.</p>
+          <h3>Document</h3>
+          <p>Timestamped video archives and incident logs delivered for permanent insurance and police records.</p>
         </div>
       </div>
     </div>
@@ -190,21 +190,21 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
   <!-- Interactive Camera Compatibility Checker -->
   <section class="section" id="compatibility">
     <div class="container">
-      <div class="section-title-wrap">
-        <span class="section-subtitle">No New Camera Investment</span>
-        <h2 class="section-heading">Why Replace Your Cameras When You Can Monitor What You Already Have?</h2>
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Zero Hardware Replacement</span>
+        <h2 class="section-heading">Compatible With Over 98% of Existing Commercial Cameras</h2>
         <p class="section-desc">
-          Click your camera brand below to check instant compatibility with our Operations Center:
+          Select your current camera brand below to check immediate compatibility with our Operations Center:
         </p>
       </div>
 
-      <div class="checker-card" style="max-width: 900px; margin: 0 auto;">
+      <div class="checker-card reveal-scale" style="max-width: 900px; margin: 0 auto;">
         <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; text-align: center;">Select Your Existing Camera System:</h3>
         <div class="brand-pills-wrap" style="justify-content: center;">
           <button class="brand-pill selected" data-brand="hikvision">Hikvision</button>
           <button class="brand-pill" data-brand="dahua">Dahua Technology</button>
           <button class="brand-pill" data-brand="axis">Axis Communications</button>
-          <button class="brand-pill" data-brand="lorex">Lorex</button>
+          <button class="brand-pill" data-brand="lorex">Lorex Commercial</button>
           <button class="brand-pill" data-brand="uniview">Uniview (UNV)</button>
           <button class="brand-pill" data-brand="reolink">Reolink</button>
           <button class="brand-pill" data-brand="ubiquiti">Ubiquiti Protect</button>
@@ -218,7 +218,7 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
             <span id="comp-status-tag" class="badge badge-green">100% Compatible - Zero Hardware Needed</span>
           </div>
           <p id="comp-details-text" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem;">
-            Connects directly via secure RTSP / ONVIF stream or cloud gateway. Supports two-way audio and alarm input synchronization without replacing existing cameras.
+            Connects directly via secure RTSP / ONVIF stream or encrypted cloud gateway. Supports two-way audio and alarm input synchronization without replacing existing cameras.
           </p>
           <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
             <button class="btn btn-primary btn-sm open-assessment-modal">
@@ -236,21 +236,21 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
   <!-- Transparent Pricing Plans: Weekly & Monthly -->
   <section class="section" style="background: var(--bg-darker); border-top: 1px solid var(--border-subtle);">
     <div class="container">
-      <div class="section-title-wrap">
-        <span class="section-subtitle">Transparent & Flexible</span>
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Predictable & Transparent</span>
         <h2 class="section-heading">Simple Per-Camera Weekly & Monthly Plans</h2>
         <p class="section-desc">
-          No hidden fees, no unnecessary hardware purchases, and no long-term lock-in. Flexible contracts to reduce buyer risk.
+          No hardware markups, no hidden onboarding fees, and no long-term lock-in contracts.
         </p>
       </div>
 
       <!-- Pricing Frequency Switcher -->
-      <div class="pricing-switcher-wrap">
+      <div class="pricing-switcher-wrap reveal">
         <button class="pricing-switch-btn active" data-period="monthly">Monthly Billing</button>
         <button class="pricing-switch-btn" data-period="weekly">Weekly Billing</button>
       </div>
 
-      <div class="grid-3">
+      <div class="grid-3 reveal-group">
         <!-- Tier 1: After-Hours & Weekend -->
         <div class="pricing-card">
           <div class="pricing-header">
@@ -276,7 +276,7 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
             </div>
             <div class="pricing-feat-item">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Incident detection & rapid manager escalation</span>
+              <span>Threat detection & rapid manager escalation</span>
             </div>
             <div class="pricing-feat-item">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
@@ -292,7 +292,7 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
         </div>
 
         <!-- Tier 2: 24/7 Continuous (Featured) -->
-        <div class="pricing-card featured">
+        <div class="pricing-card featured pulse-glow">
           <div class="pricing-featured-badge">Most Popular for High-Risk Sites</div>
           <div class="pricing-header">
             <h3 class="pricing-title">24/7 Full Monitoring</h3>
@@ -313,7 +313,7 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
             </div>
             <div class="pricing-feat-item">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span><strong>Live audio talk-down & siren triggers included</strong></span>
+              <span><strong>Live audio talk-down & strobe triggers included</strong></span>
             </div>
             <div class="pricing-feat-item">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
@@ -336,7 +336,7 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
         <div class="pricing-card">
           <div class="pricing-header">
             <h3 class="pricing-title">Multi-Site & Franchise</h3>
-            <p class="pricing-desc">For chains, franchises, and regional multi-property portfolios.</p>
+            <p class="pricing-desc">For chains, franchises, and regional commercial portfolios.</p>
           </div>
 
           <div class="pricing-cost">
@@ -348,11 +348,11 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
           <div class="pricing-features">
             <div class="pricing-feat-item">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Multi-site visibility across states and franchise locations</span>
+              <span>Multi-site centralized visibility across regional branches</span>
             </div>
             <div class="pricing-feat-item">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Dedicated account supervisor and unified billing</span>
+              <span>Dedicated account supervisor and consolidated billing</span>
             </div>
             <div class="pricing-feat-item">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
@@ -360,23 +360,23 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
             </div>
             <div class="pricing-feat-item">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-              <span>Compatible with diverse camera brands across locations</span>
+              <span>Supports mixed camera brands across different facilities</span>
             </div>
           </div>
 
-          <button class="btn btn-secondary btn-full open-quote-modal">Talk to Multi-Site Team</button>
+          <button class="btn btn-secondary btn-full open-quote-modal">Talk to Enterprise Team</button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Dual Link Conversion Section -->
+  <!-- Conversion Section -->
   <section class="container">
-    <div class="cta-banner-section">
+    <div class="cta-banner-section reveal-scale">
       <div class="cta-banner-content">
-        <h2 class="cta-banner-title">Ready to Upgrade Your Existing Cameras to Active Monitoring?</h2>
+        <h2 class="cta-banner-title">Upgrade Your Existing CCTV to Active Monitoring Today.</h2>
         <p class="cta-banner-desc">
-          Take the first step today. We will audit your current setup or deliver a transparent price breakdown within minutes.
+          We will audit your existing camera setup for free or deliver an upfront price breakdown within 15 minutes.
         </p>
         <div class="cta-banner-actions">
           <a href="tel:8442469291" class="btn btn-primary btn-lg">
@@ -390,8 +390,6 @@ $pageDesc = "Explore Eunoia Vigil remote video monitoring capabilities, camera c
         </div>
       </div>
     </div>
-
-    <!-- Mandatory Legal Compliance & Crime Prevention Disclaimer -->
   </section>
 
   <?php include('includes/footer.php'); ?>

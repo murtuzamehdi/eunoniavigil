@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Contact 24/7 Monitoring Desk & Get Free Camera Assessment | Eunoia Vigil";
-$pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291, request a free existing camera compatibility assessment, or calculate your custom monitoring quote.";
+$pageTitle = "Contact 24/7 Operations Desk & Get Free Camera Assessment | Eunoia Vigil";
+$pageDesc = "Contact Eunoia Vigil's 24/7 Operations Command Desk at (844) 246-9291, request a free existing camera compatibility assessment, or calculate your custom monitoring quote.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,13 +11,13 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
 
   <?php include('includes/header.php'); ?>
 
-<!-- Page Hero -->
+  <!-- Page Hero -->
   <section class="page-hero">
-    <div class="container">
-      <span class="section-subtitle">24/7 Operations Desk</span>
-      <h1 class="page-hero-title">Connect With Our Team. <br><span class="text-gradient">Protect Your Property Today.</span></h1>
+    <div class="container reveal">
+      <span class="section-subtitle">24/7 Operations Command Desk</span>
+      <h1 class="page-hero-title">Connect With Our Team. <br><span class="text-gradient">Protect Your Facility Today.</span></h1>
       <p class="page-hero-desc">
-        Whether you want a rapid technical compatibility check on your existing cameras or need a customized quote, our security specialists respond within 15 minutes.
+        Need a free technical compatibility audit on your existing cameras or an upfront custom quote? Our security specialists respond within 15 minutes.
       </p>
     </div>
   </section>
@@ -25,7 +25,7 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
   <!-- Direct Operations Desk Cards -->
   <section class="section-sm" style="border-bottom: 1px solid var(--border-subtle);">
     <div class="container">
-      <div class="grid-3">
+      <div class="grid-3 reveal-group">
         <div class="feature-card">
           <div class="feature-icon-box">
             <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
@@ -35,29 +35,29 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
           <p style="color: var(--text-white); font-weight: 700; font-size: 1.2rem; margin-bottom: 0.25rem;">
             <a href="tel:8442469291" style="color: inherit; text-decoration: none;">(844) 246-9291</a>
           </p>
-          <p style="font-size: 0.85rem;">Live operator line for active escalations and client dispatch.</p>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Live operator desk for rapid active escalations and property dispatch.</p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon-box">
             <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
           </div>
-          <h3>General & Sales Inquiries</h3>
-          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">&lt; 15 Min Reply</span>
+          <h3>Direct Email Desk</h3>
+          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">&lt; 15 Min Response</span>
           <p style="color: var(--text-white); font-weight: 700; font-size: 1.2rem; margin-bottom: 0.25rem;">
             <a href="mailto:desk@eunoiavigil.com" style="color: inherit; text-decoration: none;">desk@eunoiavigil.com</a>
           </p>
-          <p style="font-size: 0.85rem;">Send floor plans or franchise RFPs directly to our engineers.</p>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Send camera schedules or commercial RFPs directly to our engineering desk.</p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon-box">
             <svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           </div>
-          <h3>Corporate Office & Dispatch</h3>
+          <h3>Corporate Headquarters</h3>
           <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Connectwise Consulting Inc</span>
           <p style="color: var(--text-white); font-weight: 700; font-size: 1.1rem; margin-bottom: 0.25rem;">25722 Kingsland Blvd Suite 114</p>
-          <p style="font-size: 0.85rem;">Katy, TX 77494 &bull; National Operations Center</p>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Katy, TX 77494 &bull; National Operations Dispatch</p>
         </div>
       </div>
     </div>
@@ -69,9 +69,9 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
       <div class="grid-2" style="gap: 3rem; align-items: flex-start;">
         
         <!-- Form 1: Free Camera Compatibility Assessment -->
-        <div id="assessment-form-section" style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 2.5rem; box-shadow: var(--shadow-md);">
+        <div id="assessment-form-section" class="reveal-left" style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 2.5rem; box-shadow: var(--shadow-md);">
           <div class="badge badge-blue" style="margin-bottom: 0.75rem;">1. Free Technical Audit</div>
-          <h2 style="font-size: 1.8rem; margin-bottom: 0.5rem;">Get a Free Camera Compatibility Assessment</h2>
+          <h2 style="font-size: 1.8rem; margin-bottom: 0.5rem;">Camera Compatibility Audit</h2>
           <p style="color: var(--text-muted); font-size: 0.925rem; margin-bottom: 1.5rem;">
             Find out if your existing cameras can connect to our Operations Center without buying new equipment.
           </p>
@@ -145,20 +145,20 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
             </div>
 
             <button type="submit" class="btn btn-primary btn-full btn-lg" style="margin-top: 0.5rem;">
-              Submit for Technical Evaluation &rarr;
+              Submit for Technical Audit &rarr;
             </button>
             <p style="font-size: 0.775rem; color: var(--text-dim); text-align: center; margin-top: 0.75rem;">
-              Zero hardware replacement &bull; Confidential audit &bull; Response within 15 mins
+              Zero hardware replacement &bull; Confidential evaluation &bull; Response in &lt; 15 mins
             </p>
           </form>
         </div>
 
         <!-- Form 2: Request a Monitoring Quote & Interactive Calculator -->
-        <div id="quote-form-section" style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 2.5rem; box-shadow: var(--shadow-md);">
+        <div id="quote-form-section" class="reveal-right" style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 2.5rem; box-shadow: var(--shadow-md);">
           <div class="badge badge-green" style="margin-bottom: 0.75rem;">2. Custom Pricing Calculator</div>
           <h2 style="font-size: 1.8rem; margin-bottom: 0.5rem;">Request a Monitoring Quote</h2>
           <p style="color: var(--text-muted); font-size: 0.925rem; margin-bottom: 1.5rem;">
-            Get an instant custom quote with transparent weekly or monthly billing options.
+            Get an instant custom estimate with transparent weekly or monthly billing options.
           </p>
 
           <form data-lead-form action="send-mail.php" method="POST">
@@ -237,7 +237,7 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
               Lock In My Custom Quote &rarr;
             </button>
             <p style="font-size: 0.775rem; color: var(--text-dim); text-align: center; margin-top: 0.75rem;">
-              No long-term contracts &bull; Upfront pricing &bull; Cancel anytime
+              No long-term contracts &bull; Transparent pricing &bull; Cancel anytime
             </p>
           </form>
         </div>
@@ -249,7 +249,7 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
   <!-- Frequently Asked Questions -->
   <section class="section" style="background: var(--bg-darker); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
     <div class="container" style="max-width: 900px;">
-      <div class="section-title-wrap">
+      <div class="section-title-wrap reveal">
         <span class="section-subtitle">Got Questions?</span>
         <h2 class="section-heading">Frequently Asked Questions</h2>
         <p class="section-desc">
@@ -257,7 +257,7 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
         </p>
       </div>
 
-      <div style="display: flex; flex-direction: column; gap: 1rem;">
+      <div class="reveal-group" style="display: flex; flex-direction: column; gap: 1rem;">
         <div class="feature-card" style="padding: 1.5rem;">
           <h3 style="font-size: 1.1rem; margin-bottom: 0.35rem;">Do I have to purchase new cameras or hardware?</h3>
           <p style="font-size: 0.9rem; margin: 0; color: var(--text-muted);"><strong>No.</strong> We connect directly to 98%+ of existing commercial IP, NVR, and DVR systems via secure encrypted streams with zero new camera investment.</p>
@@ -285,9 +285,6 @@ $pageDesc = "Connect with Eunoia Vigil's 24/7 Operations Desk at (844) 246-9291,
       </div>
     </div>
   </section>
-
-  <!-- Mandatory Legal Compliance & Crime Prevention Disclaimer -->
-  <div class="container" style="margin-top: 3.5rem;">
 
   <?php include('includes/footer.php'); ?>
 

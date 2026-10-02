@@ -13,7 +13,7 @@ $pageDesc = "The requested surveillance feed or page could not be located on the
 
   <!-- 404 Error Section -->
   <section class="page-hero" style="min-height: 65vh; display: flex; align-items: center; justify-content: center; text-align: center;">
-    <div class="container" style="max-width: 680px;">
+    <div class="container reveal" style="max-width: 680px;">
       <div class="badge badge-amber" style="margin-bottom: 1.25rem;">
         <span class="pulse-dot" style="background: #f59e0b;"></span>
         Stream Disconnected &bull; Error 404

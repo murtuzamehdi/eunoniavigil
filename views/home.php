@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Eunoia Vigil | 24/7 Remote CCTV Video Monitoring Using Your Existing Cameras";
-$pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV cameras into an active 24/7 monitored security operations center with Eunoia Vigil. No new hardware, no installation required.";
+$pageTitle = "Eunoia Vigil | 24/7 Remote CCTV Video Monitoring | Use Existing Cameras";
+$pageDesc = "Transform your existing CCTV cameras into an active 24/7 monitored security operations center. Zero hardware investment, no on-site installation, and live voice deterrence.";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,23 +11,23 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
 
   <?php include('includes/header.php'); ?>
 
-<!-- Hero Section -->
+  <!-- Hero Section -->
   <section class="hero-section">
     <div class="container hero-grid">
-      <div class="hero-content">
+      <div class="hero-content reveal-left">
         <div class="badge badge-blue" style="margin-bottom: 1rem;">
           <span class="pulse-dot"></span>
-          Professional Remote Video Monitoring
+          24/7 Remote Video Monitoring
         </div>
         <h1 class="hero-headline">
           Cameras Alone Don't Stop Crime. <br>
-          <span class="text-gradient">Monitored Cameras Help Respond to It.</span>
+          <span class="text-gradient">Active Monitoring Does.</span>
         </h1>
         <p class="hero-subheadline">
-          24/7 Security Monitoring. Using the Cameras You Already Have.
+          24/7 Security Operations Center. Powered by Your Existing Cameras.
         </p>
         <p class="hero-statement">
-          Eunoia Vigil connects directly to your existing CCTV system—requiring <strong>zero new camera investment</strong>, <strong>no installation required</strong>, and delivering around-the-clock human surveillance from a professional operations center.
+          Stop relying on passive recordings discovered after a break-in. Eunoia Vigil connects securely to your current CCTV system—delivering <strong>zero new hardware costs</strong>, <strong>no on-site installation</strong>, and live operator deterrence under 15 seconds.
         </p>
 
         <div class="hero-cta-group">
@@ -41,28 +41,28 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
           </button>
         </div>
 
-        <div class="hero-trust-bar">
+        <div class="hero-trust-bar reveal-group">
           <div class="trust-item">
-            <div class="trust-number">&lt; 15 Sec</div>
+            <div class="trust-number">&lt; <span class="stat-counter-num" data-target="15">0</span>s</div>
             <div class="trust-label">Verified Alert Speed</div>
           </div>
           <div class="trust-item">
             <div class="trust-number">$0</div>
-            <div class="trust-label">New Hardware Investment</div>
+            <div class="trust-label">Hardware Expense</div>
           </div>
           <div class="trust-item">
             <div class="trust-number">24/7/365</div>
-            <div class="trust-label">Trained Human Operators</div>
+            <div class="trust-label">Human Vigilance</div>
           </div>
           <div class="trust-item">
-            <div class="trust-number">Flexible</div>
-            <div class="trust-label">Weekly & Monthly Plans</div>
+            <div class="trust-number"><span class="stat-counter-num" data-target="98">0</span>%+</div>
+            <div class="trust-label">Camera Compatibility</div>
           </div>
         </div>
       </div>
 
       <!-- Hero Visual Feed Simulation -->
-      <div class="hero-media-wrap">
+      <div class="hero-media-wrap reveal-right">
         <div class="cctv-frame">
           <div class="cctv-header-bar">
             <div class="cctv-title-tag">
@@ -75,7 +75,7 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             </div>
           </div>
           <div class="cctv-viewport">
-            <img src="assets/images/hero-soc.jpg" alt="Eunoia Vigil Security Operations Center with curved monitoring screens" class="cctv-img">
+            <img src="assets/images/hero-soc.jpg" alt="Eunoia Vigil Security Operations Center monitoring enterprise camera feeds" class="cctv-img">
             <div class="cctv-hud-timestamp live-cctv-time">2026-09-05 01:14:02 EST</div>
             <div class="cctv-detection-box">
               <span class="detection-tag">THREAT DETECTION: ACTIVE</span>
@@ -90,13 +90,13 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
           </div>
         </div>
 
-        <div class="hero-floating-badge">
+        <div class="hero-floating-badge pulse-glow">
           <div class="floating-icon">
             <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
           </div>
           <div>
             <div class="floating-text-title">Active Threat Verification</div>
-            <div class="floating-text-desc">Human operator oversight replaces passive silence</div>
+            <div class="floating-text-desc">Real human operators replace unmonitored footage</div>
           </div>
         </div>
       </div>
@@ -106,43 +106,43 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
   <!-- Reality Section: Passive Recording vs Active Monitored -->
   <section class="section reality-section">
     <div class="container">
-      <div class="section-title-wrap">
-        <span class="section-subtitle">The Reality of Commercial CCTV</span>
-        <h2 class="section-heading">Passive Recording Alone Doesn't Protect Your Business</h2>
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Commercial Security Reality</span>
+        <h2 class="section-heading">Passive CCTV Records Losses. Monitored CCTV Prevents Them.</h2>
         <p class="section-desc">
-          Unmonitored cameras only provide a recording of what you already lost. Active human monitoring changes the equation.
+          Unmonitored cameras only give you video evidence of what you already lost. Active remote surveillance changes everything.
         </p>
       </div>
 
-      <div class="comparison-card-grid">
+      <div class="comparison-card-grid reveal-group">
         <!-- Card 1: Passive Recording -->
         <div class="comp-card comp-card-passive">
           <div class="comp-badge comp-badge-bad">
             <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
             Passive CCTV Alone
           </div>
-          <h3>CCTV Records What Happened</h3>
-          <p>Footage sits unwatched on hard drives until after a loss has occurred.</p>
+          <h3>Footage Reviewed After Loss</h3>
+          <p>Recorded video sits unwatched on hard drives until long after the incident has finished.</p>
           <div class="metric-pill-row">
-            <span class="metric-pill" style="border-color: rgba(239, 68, 68, 0.4); color: #f87171; background: rgba(239, 68, 68, 0.1);">0% Real-Time Oversight</span>
-            <span class="metric-pill" style="border-color: rgba(239, 68, 68, 0.4); color: #f87171; background: rgba(239, 68, 68, 0.1);">Slow Post-Event Discovery</span>
+            <span class="metric-pill" style="border-color: rgba(239, 68, 68, 0.4); color: #f87171; background: rgba(239, 68, 68, 0.1);">0% Live Intervention</span>
+            <span class="metric-pill" style="border-color: rgba(239, 68, 68, 0.4); color: #f87171; background: rgba(239, 68, 68, 0.1);">Hours-Late Discovery</span>
           </div>
           <div class="comp-list">
             <div class="comp-item">
               <svg class="comp-icon-bad" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-              <span><strong>Nobody watching in real time:</strong> Feeds run unwatched on office screens.</span>
+              <span><strong>Unwatched Video Feeds:</strong> Screens run silently in back offices with nobody watching.</span>
             </div>
             <div class="comp-item">
               <svg class="comp-icon-bad" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-              <span><strong>Staff cannot watch screens:</strong> Employees prioritize registers and customers.</span>
+              <span><strong>Distracted Staff:</strong> Cashiers and floor workers focus on customers, not security angles.</span>
             </div>
             <div class="comp-item">
               <svg class="comp-icon-bad" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-              <span><strong>Owners can't watch 24/7:</strong> Impossible to monitor notifications all night.</span>
+              <span><strong>Owner Alert Fatigue:</strong> Late-night motion alerts on smartphones get muted or ignored.</span>
             </div>
             <div class="comp-item">
               <svg class="comp-icon-bad" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-              <span><strong>After-hours incidents go unnoticed:</strong> Break-ins discovered next morning.</span>
+              <span><strong>Slow Police Response:</strong> Unverified automated alarms are ranked lowest priority by 911 dispatch.</span>
             </div>
           </div>
         </div>
@@ -153,28 +153,28 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             Eunoia Vigil Monitored Cameras
           </div>
-          <h3>Technology Watches. People Respond.</h3>
-          <p>Trained operators actively respond to live security events around the clock.</p>
+          <h3>Real-Time Human Intervention</h3>
+          <p>Trained watch specialists detect, verify, and actively challenge intruders the moment they trespass.</p>
           <div class="metric-pill-row">
-            <span class="metric-pill pill-green">24/7 Active Oversight</span>
+            <span class="metric-pill pill-green">24/7 Professional Eyes</span>
             <span class="metric-pill pill-green">&lt; 15s Rapid Escalation</span>
           </div>
           <div class="comp-list">
             <div class="comp-item">
               <svg class="comp-icon-good" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              <span><strong>24/7 Human Vigilance:</strong> Certified operators watching feeds on rotated shifts.</span>
+              <span><strong>Continuous Human Vigilance:</strong> Certified operators watching feeds across rotated shifts.</span>
             </div>
             <div class="comp-item">
               <svg class="comp-icon-good" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              <span><strong>Instant Incident Verification:</strong> Human verification eliminates false alarms.</span>
+              <span><strong>Instant Threat Verification:</strong> Eliminates 99% of false alarms before keyholders are called.</span>
             </div>
             <div class="comp-item">
               <svg class="comp-icon-good" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              <span><strong>Active Voice Talk-Down:</strong> Live warnings stop intruders before damage occurs.</span>
+              <span><strong>Live Audio Talk-Down:</strong> Real-time verbal commands over speakers expel suspects on the spot.</span>
             </div>
             <div class="comp-item">
               <svg class="comp-icon-good" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-              <span><strong>Predetermined Escalation:</strong> Rapid priority call trees to managers & keyholders.</span>
+              <span><strong>Priority Dispatch Support:</strong> Verified video incidents receive urgent, priority emergency response.</span>
             </div>
           </div>
         </div>
@@ -185,31 +185,31 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
   <!-- Visual System Architecture Callout -->
   <section class="section" style="padding-top: 0;">
     <div class="container">
-      <div class="visual-diagram-card">
+      <div class="visual-diagram-card reveal-scale">
         <div class="diagram-header-bar">
           <div style="display: flex; align-items: center; gap: 0.5rem;">
             <span class="pulse-dot"></span>
-            <span>SYSTEM ARCHITECTURE // ZERO HARDWARE REPLACEMENT WORKFLOW</span>
+            <span>SYSTEM ARCHITECTURE // ZERO HARDWARE UPGRADE WORKFLOW</span>
           </div>
           <span class="badge badge-green">98%+ Camera Compatibility</span>
         </div>
-        <img src="assets/images/network-diagram.jpg" alt="Eunoia Vigil CCTV Network Connection Architecture: Existing Cameras to Cloud Bridge to Operations Center" class="diagram-img">
+        <img src="assets/images/network-diagram.jpg" alt="Technical diagram showing Existing Cameras connected via Encrypted Gateway to 24/7 Security Operations Center" class="diagram-img">
         <div class="diagram-body">
-          <div class="grid-3" style="gap: 1.5rem;">
+          <div class="grid-3 reveal-group" style="gap: 1.5rem;">
             <div>
-              <div style="font-size: 0.8rem; color: #60a5fa; font-weight: 700; margin-bottom: 0.25rem;">PHASE 1: EXISTING SETUP</div>
-              <h4 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-white);">Use What You Have</h4>
-              <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">We bridge your existing IP, NVR, DVR, or ONVIF cameras with zero wiring disruption.</p>
+              <div style="font-size: 0.8rem; color: #60a5fa; font-weight: 700; margin-bottom: 0.25rem;">STEP 1: YOUR EXISTING CAMERAS</div>
+              <h4 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-white);">Zero Hardware Replacement</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">We connect directly to your IP, NVR, DVR, or ONVIF system using encrypted streams without replacing equipment.</p>
             </div>
             <div>
-              <div style="font-size: 0.8rem; color: #34d399; font-weight: 700; margin-bottom: 0.25rem;">PHASE 2: ENCRYPTED BRIDGE</div>
-              <h4 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-white);">24/7 Human Oversight</h4>
-              <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Certified SOC operators monitor video feeds around the clock with AI motion assistance.</p>
+              <div style="font-size: 0.8rem; color: #34d399; font-weight: 700; margin-bottom: 0.25rem;">STEP 2: 24/7 COMMAND DESK</div>
+              <h4 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-white);">Trained Operator Oversight</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Certified SOC specialists monitor assigned feeds, perimeter tripwires, and high-risk zones per your schedule.</p>
             </div>
             <div>
-              <div style="font-size: 0.8rem; color: #f59e0b; font-weight: 700; margin-bottom: 0.25rem;">PHASE 3: ACTIVE RESPONSE</div>
+              <div style="font-size: 0.8rem; color: #f59e0b; font-weight: 700; margin-bottom: 0.25rem;">STEP 3: ACTIVE RESPONSE</div>
               <h4 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-white);">Immediate Intervention</h4>
-              <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Live audio talk-down, siren alerts, and rapid verified manager escalation under 15 seconds.</p>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0;">Live two-way voice talk-down, siren activation, and verified escalation delivered in under 15 seconds.</p>
             </div>
           </div>
         </div>
@@ -220,31 +220,31 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
   <!-- Value Proposition: Why Replace Cameras -->
   <section class="section" style="padding-top: 1rem;">
     <div class="container">
-      <div class="section-title-wrap">
-        <span class="section-subtitle">Intelligent Cost Savings</span>
-        <h2 class="section-heading">Why Replace Your Cameras When You Can Monitor What You Already Have?</h2>
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Commercial Advantage</span>
+        <h2 class="section-heading">Why Buy New Hardware When You Can Monitor What You Have?</h2>
         <p class="section-desc">
-          No new camera investment. No installation required. Remote monitoring from a professional Operations Center.
+          Stop spending thousands on proprietary camera upgrades. Eunoia Vigil activates your existing equipment with professional monitoring.
         </p>
       </div>
 
-      <div class="grid-3">
+      <div class="grid-3 reveal-group">
         <div class="feature-card">
           <div class="feature-icon-box">
             <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
           </div>
-          <h3>Use Your Existing Cameras</h3>
+          <h3>Keep Your Existing Cameras</h3>
           <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Hikvision, Dahua, Axis, ONVIF</span>
-          <p>Secure encrypted connection to your existing IP or DVR feeds without replacing hardware.</p>
+          <p>Bank-grade encrypted connection to your existing IP or DVR feeds with zero equipment changes.</p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon-box">
             <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
           </div>
-          <h3>No New Camera Investment</h3>
-          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">$0 Capital Expense</span>
-          <p>Zero spend on replacement cameras, NVRs, or proprietary hardware leases.</p>
+          <h3>Zero Hardware Investment</h3>
+          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">$0 Capital Expenditure</span>
+          <p>No upfront camera costs, expensive proprietary servers, or long-term lease entanglements.</p>
         </div>
 
         <div class="feature-card">
@@ -252,26 +252,26 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
           </div>
           <h3>No Installation Required</h3>
-          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Zero Business Downtime</span>
-          <p>No drilling, conduit, or technicians on site. 100% remote encrypted software onboarding.</p>
+          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Zero Business Disruption</span>
+          <p>No drilling holes, running cables, or waiting on technicians. 100% remote secure setup.</p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon-box">
             <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
           </div>
-          <h3>24/7 Human Monitoring</h3>
+          <h3>24/7 Human Vigilance</h3>
           <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Rotated Operator Shifts</span>
-          <p>Dedicated security professionals watching designated cameras continuously.</p>
+          <p>Certified security specialists watch designated feeds continuously to prevent fatigue and oversights.</p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon-box">
             <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
           </div>
-          <h3>Affordable Weekly & Monthly Plans</h3>
-          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Predictable Cost Control</span>
-          <p>Clear pricing per-camera or per-site with transparent weekly and monthly options.</p>
+          <h3>Predictable Weekly & Monthly Plans</h3>
+          <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Transparent Pricing</span>
+          <p>Clear per-camera rates tailored to your exact coverage hours with no hidden fees or surprises.</p>
         </div>
 
         <div class="feature-card">
@@ -280,177 +280,177 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
           </div>
           <h3>No Long-Term Lock-In</h3>
           <span class="metric-pill pill-green" style="margin-bottom: 0.5rem;">Low-Risk Contracts</span>
-          <p>Flexible agreements built to reduce buyer risk. Scale up, down, or pause anytime.</p>
+          <p>Agreements built around performance and trust. Scale up, down, or pause monitoring anytime.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- How It Works - 5 Simple Steps [Highlighted on Website] -->
+  <!-- How It Works - 5 Simple Steps -->
   <section class="section" style="background: var(--bg-darker); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
     <div class="container">
-      <div class="section-title-wrap">
-        <span class="section-subtitle">Fast Implementation</span>
-        <h2 class="section-heading">How It Works - 5 Simple Steps</h2>
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Frictionless Onboarding</span>
+        <h2 class="section-heading">How It Works: 5 Straightforward Steps</h2>
         <p class="section-desc">
-          Getting 24/7 professional eyes on your business doesn't require complex installations. Here is our straightforward onboarding process:
+          Live monitoring can be activated on your facility in under 24 hours without interrupting daily business operations:
         </p>
       </div>
 
       <div class="steps-timeline-wrap">
-        <div class="steps-grid">
+        <div class="steps-grid reveal-group">
           <!-- Step 1 -->
           <div class="step-card">
             <div class="step-number">01</div>
-            <h3>1. Connect</h3>
-            <p>We securely connect to your compatible existing camera system using bank-grade encrypted protocols without altering your physical setup.</p>
+            <h3>Connect</h3>
+            <p>We securely link to your compatible existing camera system using encrypted protocols without physical rewiring.</p>
           </div>
 
           <!-- Step 2 -->
           <div class="step-card">
             <div class="step-number">02</div>
-            <h3>2. Configure</h3>
-            <p>Our team identifies cameras, coverage areas, high-risk blind spots, and your specific monitoring requirements and hours.</p>
+            <h3>Configure</h3>
+            <p>You define high-risk zones, perimeter tripwires, register views, and custom monitoring schedules.</p>
           </div>
 
           <!-- Step 3 -->
           <div class="step-card">
             <div class="step-number">03</div>
-            <h3>3. Monitor</h3>
-            <p>Our monitoring professionals monitor your designated cameras from our central operations center according to your service plan.</p>
+            <h3>Monitor</h3>
+            <p>Our certified SOC operators monitor your camera feeds 24/7 or during your requested after-hours windows.</p>
           </div>
 
           <!-- Step 4 -->
           <div class="step-card">
             <div class="step-number">04</div>
-            <h3>4. Respond</h3>
-            <p>When suspicious activity or a defined security event is detected, our team follows your predetermined escalation protocol.</p>
+            <h3>Respond</h3>
+            <p>Upon threat detection, operators issue live voice talk-down warnings and escalate to your designated contacts.</p>
           </div>
 
           <!-- Step 5 -->
           <div class="step-card">
             <div class="step-number">05</div>
-            <h3>5. Document</h3>
-            <p>Incident details, time-stamped video archives, and operator intervention notes are recorded for your permanent records.</p>
+            <h3>Document</h3>
+            <p>Full timestamped video logs, incident clips, and intervention reports are delivered for your records and insurance.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Industries & Key Benefits Grid (With Proper Photographic Imagery) -->
+  <!-- Industries & Key Benefits Grid -->
   <section class="section">
     <div class="container">
-      <div class="section-title-wrap">
-        <span class="section-subtitle">Commercial Environments</span>
-        <h2 class="section-heading">Benefits for Stores, Showrooms, Gas Stations & Warehouses</h2>
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Industry Playbooks</span>
+        <h2 class="section-heading">Tailored Security Coverage for Every Commercial Facility</h2>
         <p class="section-desc">
-          Every facility has unique vulnerabilities. Our operations center provides customized coverage tailored to your exact industry risks.
+          Each facility faces distinct risks. Our command center applies specialized operational protocols for every sector.
         </p>
       </div>
 
-      <div class="grid-2" style="gap: 2.5rem;">
+      <div class="grid-2 reveal-group" style="gap: 2.5rem;">
         <!-- Sector 1: Retail & Supermarkets -->
         <div class="industry-card">
           <div class="industry-thumb">
-            <img src="assets/images/retail-cctv.jpg" alt="Retail supermarket surveillance feed view">
-            <div class="industry-tag">Stores & Supermarkets</div>
+            <img src="assets/images/retail-cctv.jpg" alt="Commercial retail supermarket checkout lanes and inventory aisles under surveillance">
+            <div class="industry-tag">Retail Stores & Supermarkets</div>
           </div>
           <div class="industry-body">
-            <h3>Theft and Shrinkage Reduction</h3>
+            <h3>Shrinkage & Cash Register Auditing</h3>
             <div class="metric-pill-row">
               <span class="metric-pill pill-green">Theft Reduction: -35%</span>
-              <span class="metric-pill">POS Register Oversight</span>
+              <span class="metric-pill">POS Register Auditing</span>
             </div>
-            <p>Continuous oversight of checkout lanes, cash registers, customer service desks, and stockrooms where inventory loss occurs.</p>
-            <div class="industry-benefits-list">
-              <div class="industry-benefit-item">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span>Check-in / out areas & stock room continuous oversight</span>
-              </div>
-              <div class="industry-benefit-item">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span>Documented footage and incident logs for liability and employee safety</span>
-              </div>
-            </div>
+            <p>Continuous oversight of checkout registers, self-checkouts, customer counters, and back-room storage docks.</p>
+            <ul class="benefit-checklist">
+              <li>
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Monitors cash transactions and sweet-hearting discrepancies at checkout lanes.</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Timestamped video evidence defends against fraudulent slip-and-fall liability claims.</span>
+              </li>
+            </ul>
           </div>
         </div>
 
         <!-- Sector 2: Gas Stations & Convenience -->
         <div class="industry-card">
           <div class="industry-thumb">
-            <img src="assets/images/gas-station-cctv.jpg" alt="Night gas station CCTV feed with illuminated pumps">
-            <div class="industry-tag">Gas Stations & Late-Night Retail</div>
+            <img src="assets/images/gas-station-cctv.jpg" alt="Night gas station surveillance feed with illuminated fuel dispensers and canopy">
+            <div class="industry-tag">Gas Stations & C-Stores</div>
           </div>
           <div class="industry-body">
-            <h3>After-Hours & Fuel Depot Coverage</h3>
+            <h3>Fuel Island & Lone-Worker Protection</h3>
             <div class="metric-pill-row">
-              <span class="metric-pill pill-green">24/7 Pump Oversight</span>
+              <span class="metric-pill pill-green">24/7 Island Watch</span>
               <span class="metric-pill">Lone-Worker Safety</span>
             </div>
-            <p>Active monitoring during closed or late-night shifts—safeguarding fuel pump islands, depots, ATMs, and registers.</p>
-            <div class="industry-benefits-list">
-              <div class="industry-benefit-item">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span>Active supervision of fuel depots, ATMs, and perimeter loiterers</span>
-              </div>
-              <div class="industry-benefit-item">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span>Live audio talk-down & siren triggers to stop trespassers before escalations</span>
-              </div>
-            </div>
+            <p>Active remote monitoring during late-night hours—protecting lone cashiers, fuel islands, ATMs, and perimeter lots.</p>
+            <ul class="benefit-checklist">
+              <li>
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Virtual guardian over graveyard-shift clerks with 1-tap distress escalation.</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Live voice talk-down stops pump loitering, card skimmer tampering, and vandalism.</span>
+              </li>
+            </ul>
           </div>
         </div>
 
         <!-- Sector 3: Warehouses & Logistics -->
         <div class="industry-card">
           <div class="industry-thumb">
-            <img src="assets/images/warehouse-cctv.jpg" alt="Industrial warehouse camera view of pallets and loading docks">
+            <img src="assets/images/warehouse-cctv.jpg" alt="Industrial warehouse interior surveillance showing high pallet racks and freight bays">
             <div class="industry-tag">Warehouses & Logistics Hubs</div>
           </div>
           <div class="industry-body">
-            <h3>Liability & Safety Protection</h3>
+            <h3>Loading Bay & Inventory Yard Oversight</h3>
             <div class="metric-pill-row">
-              <span class="metric-pill pill-green">Liability Shield</span>
-              <span class="metric-pill">&lt; 15s Verified Alert</span>
+              <span class="metric-pill pill-green">Perimeter Defense</span>
+              <span class="metric-pill">Dock Audits</span>
             </div>
-            <p>Wide-area oversight across freight docks, loading bays, inventory high-bays, and trailer staging areas.</p>
-            <div class="industry-benefits-list">
-              <div class="industry-benefit-item">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span>Faster emergency response: Verified video alerts sent within seconds</span>
-              </div>
-              <div class="industry-benefit-item">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span>Loading dock discrepancy verification & perimeter fence defense</span>
-              </div>
-            </div>
+            <p>Wide-area surveillance across freight loading docks, staging lanes, trailer parking yards, and storage bays.</p>
+            <ul class="benefit-checklist">
+              <li>
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Detects fence breaches and gate tampering before intruders access shipping containers.</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Verifies trailer seal integrity and loading dock discrepancies with clear video proof.</span>
+              </li>
+            </ul>
           </div>
         </div>
 
         <!-- Sector 4: Showrooms & Dealerships -->
         <div class="industry-card">
           <div class="industry-thumb">
-            <img src="assets/images/dealership-cctv.jpg" alt="Automotive dealership lot under surveillance illumination">
-            <div class="industry-tag">Showrooms & Multi-Site Franchises</div>
+            <img src="assets/images/dealership-cctv.jpg" alt="Commercial auto dealership vehicle lot at night illuminated by security floodlights">
+            <div class="industry-tag">Dealerships & Showrooms</div>
           </div>
           <div class="industry-body">
-            <h3>Multi-Site Visibility Across States</h3>
+            <h3>Outdoor Asset & Lot Perimeter Defense</h3>
             <div class="metric-pill-row">
-              <span class="metric-pill pill-green">Central Dashboard</span>
-              <span class="metric-pill">Lot Perimeter Defense</span>
+              <span class="metric-pill pill-green">Lot Tripwires</span>
+              <span class="metric-pill">Multi-Site Dashboard</span>
             </div>
-            <p>Multi-location consolidated dashboard visibility protecting outdoor inventories, display lots, and valuable equipment.</p>
-            <div class="industry-benefits-list">
-              <div class="industry-benefit-item">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span>Centralized dashboard for multi-location operations</span>
-              </div>
-              <div class="industry-benefit-item">
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
-                <span>Automated incident detection & rapid escalation to managers</span>
-              </div>
-            </div>
+            <p>Centralized monitoring for high-value outdoor inventories, vehicle display lots, and equipment rental yards.</p>
+            <ul class="benefit-checklist">
+              <li>
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Virtual tripwire alerts trigger instant voice warnings when lot prowlers touch vehicles.</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Single consolidated dashboard for owners managing multiple franchise dealerships.</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -460,22 +460,22 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
   <!-- Client Governance: Your Business. Your Cameras. Your Rules. -->
   <section class="section rules-section">
     <div class="container">
-      <div class="section-title-wrap">
-        <span class="section-subtitle">Complete Client Control</span>
+      <div class="section-title-wrap reveal">
+        <span class="section-subtitle">Client Governance</span>
         <h2 class="section-heading">Your Business. Your Cameras. Your Rules.</h2>
         <p class="section-desc">
-          You stay in total command. Our Operations Center adheres strictly to your guidelines and parameters.
+          You maintain full authority over what our Operations Center monitors and how incidents are handled.
         </p>
       </div>
 
-      <div class="grid-3" style="gap: 1.25rem;">
+      <div class="grid-3 reveal-group" style="gap: 1.25rem;">
         <div class="rule-tile">
           <div class="rule-tile-icon">
             <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
           </div>
           <div>
-            <div class="rule-tile-title">1. You Choose Monitored Cameras</div>
-            <p class="rule-tile-desc">Direct our watch only where security is needed. Exclude private offices or sensitive zones completely.</p>
+            <div class="rule-tile-title">1. You Choose Monitored Feeds</div>
+            <p class="rule-tile-desc">Assign only perimeter, retail, or gate cameras. Private offices and breakrooms remain excluded.</p>
           </div>
         </div>
 
@@ -484,8 +484,8 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
           </div>
           <div>
-            <div class="rule-tile-title">2. You Define Security Events</div>
-            <p class="rule-tile-desc">Customize threat triggers—from after-hours lot loitering to backdoor openings or yard breaches.</p>
+            <div class="rule-tile-title">2. You Define Alarm Triggers</div>
+            <p class="rule-tile-desc">Configure exact event rules—such as after-hours parking lot loitering or unauthorized door openings.</p>
           </div>
         </div>
 
@@ -494,8 +494,8 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
           </div>
           <div>
-            <div class="rule-tile-title">3. You Provide Escalation Contacts</div>
-            <p class="rule-tile-desc">Specify exact contact hierarchies so store managers, regional leads, or keyholders are notified in order.</p>
+            <div class="rule-tile-title">3. Custom Escalation Order</div>
+            <p class="rule-tile-desc">Establish priority contact trees so general managers, store leads, or keyholders are called in sequence.</p>
           </div>
         </div>
 
@@ -504,8 +504,8 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
           </div>
           <div>
-            <div class="rule-tile-title">4. You Determine Alert Channels</div>
-            <p class="rule-tile-desc">Select instant live phone calls for critical alarms, SMS for activity flags, or daily summary logs.</p>
+            <div class="rule-tile-title">4. Flexible Notification Methods</div>
+            <p class="rule-tile-desc">Receive emergency phone calls for urgent breaches, SMS alerts with video clips, or daily summary logs.</p>
           </div>
         </div>
 
@@ -514,8 +514,8 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
           </div>
           <div>
-            <div class="rule-tile-title">5. Unchanged Internal Access</div>
-            <p class="rule-tile-desc">Your team keeps using existing mobile apps and office monitors with zero disruption to daily access.</p>
+            <div class="rule-tile-title">5. Unchanged Internal Feeds</div>
+            <p class="rule-tile-desc">Your staff continue using their existing mobile apps and manager monitors with zero interference.</p>
           </div>
         </div>
 
@@ -524,8 +524,8 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
             <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
           </div>
           <div>
-            <div class="rule-tile-title">6. Restricted Authorized SOC Eyes</div>
-            <p class="rule-tile-desc">Feeds are locked behind encrypted credentials and restricted to certified, background-checked operators.</p>
+            <div class="rule-tile-title">6. Vetted Shift Operators Only</div>
+            <p class="rule-tile-desc">Feeds are strictly restricted to background-checked, certified surveillance specialists on active duty.</p>
           </div>
         </div>
       </div>
@@ -535,53 +535,53 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
   <!-- Cost Comparison: Guards vs Monitored CCTV -->
   <section class="section">
     <div class="container">
-      <div class="section-title-wrap">
+      <div class="section-title-wrap reveal">
         <span class="section-subtitle">Economic Efficiency</span>
-        <h2 class="section-heading">Affordable Alternative to On-Site Guards</h2>
+        <h2 class="section-heading">Active Remote Monitoring vs. On-Site Physical Guards</h2>
         <p class="section-desc">
-          Professional monitoring at a fraction of the cost of staffing every location. Compare the numbers yourself:
+          Compare the operational and financial impact of remote surveillance against traditional guard staffing:
         </p>
       </div>
 
-      <div class="cost-table-wrap">
+      <div class="cost-table-wrap reveal-scale">
         <table class="cost-table">
           <thead>
             <tr>
-              <th>Evaluation Parameter</th>
+              <th>Evaluation Factor</th>
               <th>Physical On-Site Guards</th>
-              <th class="highlight-col">Eunoia Vigil Remote Monitoring</th>
+              <th class="highlight-col">Eunoia Vigil Remote Surveillance</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><strong>Typical Cost per Location</strong></td>
-              <td>$12,000 – $18,000+ / month (for 24/7 post)</td>
-              <td class="highlight-col"><strong>From $199 / month</strong> (or flexible weekly plans)</td>
+              <td><strong>Monthly Cost per Location</strong></td>
+              <td>$12,000 – $18,000+ / month (24/7 post)</td>
+              <td class="highlight-col"><strong>From $35 / camera / month</strong> (Flexible plans)</td>
             </tr>
             <tr>
               <td><strong>Hardware & Setup Expense</strong></td>
-              <td>Guard shacks, uniforms, payroll setup</td>
+              <td>Guard booths, uniforms, equipment leases</td>
               <td class="highlight-col"><strong>$0</strong> — Uses your existing cameras</td>
             </tr>
             <tr>
-              <td><strong>Vigilance & Multi-Point Coverage</strong></td>
-              <td>Single guard can only watch one doorway at a time</td>
-              <td class="highlight-col">All critical perimeter & stock feeds monitored concurrently</td>
+              <td><strong>Multi-Camera Vigilance</strong></td>
+              <td>One person watching a single doorway at a time</td>
+              <td class="highlight-col">Simultaneous oversight across all perimeter and cash zones</td>
             </tr>
             <tr>
-              <td><strong>Distraction & Sleep Fatigue</strong></td>
-              <td>Vulnerable to sleeping on duty, phone distraction</td>
-              <td class="highlight-col">Supervised SOC with rotated operators and AI-assist tags</td>
+              <td><strong>Fatigue & Human Error</strong></td>
+              <td>Sleeping on shift, phone distractions, absenteeism</td>
+              <td class="highlight-col">Supervised SOC with rotated shifts and AI motion tags</td>
             </tr>
             <tr>
               <td><strong>Active Deterrence</strong></td>
-              <td>Physical presence only (confrontation hazard)</td>
-              <td class="highlight-col">Live audio talk-down & immediate siren triggers</td>
+              <td>Passive physical presence (safety hazard)</td>
+              <td class="highlight-col">Live two-way voice talk-down and instant strobe triggers</td>
             </tr>
             <tr>
-              <td><strong>Contracts & Flexibility</strong></td>
-              <td>Rigid annual guard staffing agreements</td>
-              <td class="highlight-col">Transparent weekly/monthly plans, no long-term lock-in</td>
+              <td><strong>Contract Flexibility</strong></td>
+              <td>Rigid annual guard contracts with steep cancellation fees</td>
+              <td class="highlight-col">Transparent weekly or monthly terms, no long-term lock-in</td>
             </tr>
           </tbody>
         </table>
@@ -589,14 +589,14 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
     </div>
   </section>
 
-  <!-- Two Primary Links / Call to Action Hub -->
+  <!-- Call to Action Banner -->
   <section class="container">
-    <div class="cta-banner-section">
+    <div class="cta-banner-section reveal-scale">
       <div class="cta-banner-content">
         <span class="badge badge-blue" style="margin-bottom: 1.25rem;">Start Today With Zero Capital Expense</span>
-        <h2 class="cta-banner-title">24/7 Security Monitoring. Using the Cameras You Already Have.</h2>
+        <h2 class="cta-banner-title">Turn Your Existing Cameras into an Active Defense Line.</h2>
         <p class="cta-banner-desc">
-          No new hardware or installation needed. Pick an option below to connect with our Operations Team:
+          No equipment purchase. No technicians on site. Connect directly with our Operations Desk right now:
         </p>
         <div class="cta-banner-actions">
           <a href="tel:8442469291" class="btn btn-primary btn-lg">
@@ -610,8 +610,6 @@ $pageDesc = "Cameras alone don't stop crime. Transform your existing CCTV camera
         </div>
       </div>
     </div>
-
-    <!-- Mandatory Legal Compliance & Crime Prevention Disclaimer -->
   </section>
 
   <?php include('includes/footer.php'); ?>
